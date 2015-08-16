@@ -1,0 +1,13 @@
+# Footer navigation links
+
+- title: Subscribe
+  url: /subscribe/
+
+- title: Neutrino Document
+  url: http://neutrino.readthedocs.org
+
+- title: GitHub
+  url: https://github.com/NeuPhysics
+
+- title: Physics Research Manual
+  url: http://cosmologytaskforce.github.io/PhysicsResearchSurvivalManual/

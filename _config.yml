@@ -1,0 +1,67 @@
+# Site wide configuration
+
+title: Neutrino Physics
+subtitle: "The particle"
+description: "Oscillations, Interactions"
+version: "ν"
+logo: logo-120x120.png # 120x120 px default image used for Twitter summary card
+teaser: # 400x250 px default teaser image used in image archive grid
+locale: en
+# url: ./
+url: http://neutrino.xyz
+baseurl: /
+
+# Jekyll configuration
+
+sass:
+    sass_dir: _sass
+    style: compressed
+permalink: /:categories/:title/
+markdown: kramdown
+highlighter: pygments
+gems:
+  - jekyll-sitemap
+
+
+share: false
+
+
+
+# New Settings
+
+cover_image: front-cover.jpg
+
+
+
+
+
+
+# Site owner
+owner:
+  name: "OctoMiao"
+  email: octomiao@interimm.org
+  twitter: emptymalei
+  google:
+    ad-client:
+    ad-slot:
+  bio: "Physics is the game."
+  avatar: octomiao.png # 160x160 px image for author byline
+  weibo: 章鱼喵-十只手
+disqus-shortname: darkhypernova
+duoshuo-shortname: openmetric
+swiftype: kGzvV1L-RzYo_pfREF9P # swiftype code, only the code part in your swiftype js
+gacode: UA-66327435-1 # Google Analytics Code
+lang: en  # en or cn
+sharelang: cn # en or cn
+
+# Plugins for github pages
+
+gems:
+- jekyll-mentions
+- jemoji
+- jekyll-redirect-from
+- jekyll-sitemap
+
+
+
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]

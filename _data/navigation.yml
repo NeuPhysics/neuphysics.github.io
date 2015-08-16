@@ -1,0 +1,13 @@
+# Site navigation links
+
+- title: Neutrino
+  url: /neutrino/
+  excerpt: "Neutrino Physics"
+
+- title: Experiment
+  url: /experiment/
+  excerpt: "Neutrino Physics"
+
+- title: About
+  url: /about/
+  excerpt: "About NeuPhysics"

@@ -1,0 +1,32 @@
+OctoMiao:
+    name: OctoMiao
+    display_name: OctoMiao
+    gravatar:
+    avatar: octomiao.jpg
+    email:
+    web: http://openmetric.org
+    weibo: http://www.weibo.com/1510425807
+    bio: "<b>Member of Interplanetary Immigration Center</b><br><b>Keywords</b>：Physics, Astrophysics, Mathematica，Cosmology, Python"
+    douban:
+    twitter:
+    github:
+InterImm:
+    name: 星际移民中心
+    display_name: 星际移民中心
+    gravatar:
+    avatar: interimm.png
+    email: interimm@qq.com
+    web: http://interimm.org
+    weibo: http://www.weibo.com/iiaofficial
+    bio: "<b>星际移民中心</b>"
+    douban:
+    twitter:
+    github:
+example:
+    name: First Name
+    display_name: DisplayName
+    gravatar:
+    email: example@company.com
+    web: http://example.com
+    twitter:
+    github:

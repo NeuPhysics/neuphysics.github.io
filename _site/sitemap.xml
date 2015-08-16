@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  
+  <url>
+    <loc>http://openmetric.org/til/physics/</loc>
+    
+    <lastmod>2015-02-03T00:00:00-07:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://openmetric.org/til/misc/</loc>
+    
+    <lastmod>2015-02-03T00:00:00-07:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://openmetric.org/til/math/</loc>
+    
+    <lastmod>2015-02-03T00:00:00-07:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://openmetric.org/stories/martian-sky/</loc>
+    
+    <lastmod>2014-11-10T00:00:00-07:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://openmetric.org/stories/dream-a-new-world/</loc>
+    
+    <lastmod>2014-11-08T00:00:00-07:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://openmetric.org/stories/reader/</loc>
+    
+    <lastmod>2014-09-23T00:00:00-06:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://openmetric.org/stories/psycho/</loc>
+    
+    <lastmod>2014-09-23T00:00:00-06:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://openmetric.org/stories/noodle/</loc>
+    
+    <lastmod>2014-09-23T00:00:00-06:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://openmetric.org/stories/memo/</loc>
+    
+    <lastmod>2014-09-23T00:00:00-06:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://openmetric.org/stories/letter/</loc>
+    
+    <lastmod>2014-09-23T00:00:00-06:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://openmetric.org/stories/creator/</loc>
+    
+    <lastmod>2014-09-23T00:00:00-06:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://openmetric.org/stories/bridge/</loc>
+    
+    <lastmod>2014-09-23T00:00:00-06:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://openmetric.org/darkside/</loc>
+    <lastmod>2015-02-05T09:34:24-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://openmetric.org/about/</loc>
+    <lastmod>2015-02-05T09:34:24-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://openmetric.org/</loc>
+    <lastmod>2015-02-05T09:34:24-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://openmetric.org/subscribe/</loc>
+    <lastmod>2015-02-05T09:34:24-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://openmetric.org/til/</loc>
+    <lastmod>2015-02-05T09:34:24-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://openmetric.org/science/</loc>
+    <lastmod>2015-02-05T09:34:24-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://openmetric.org/stories/</loc>
+    <lastmod>2015-02-05T09:34:24-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://openmetric.org/brief/archive/2014/07/16/night1/index.html</loc>
+    <lastmod>2014-11-22T05:01:44Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://openmetric.org/brief/archive/2014/09/23/bridge/index.html</loc>
+    <lastmod>2014-11-22T05:01:44Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://openmetric.org/brief/archive/2014/09/23/creator/index.html</loc>
+    <lastmod>2014-11-22T05:01:44Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://openmetric.org/brief/archive/2014/09/23/letter/index.html</loc>
+    <lastmod>2014-11-22T05:01:44Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://openmetric.org/brief/archive/2014/09/23/memo/index.html</loc>
+    <lastmod>2014-11-22T05:01:44Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://openmetric.org/brief/archive/2014/09/23/noodle/index.html</loc>
+    <lastmod>2014-11-22T05:01:44Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://openmetric.org/brief/archive/2014/09/23/phycho/index.html</loc>
+    <lastmod>2014-11-22T05:01:44Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://openmetric.org/brief/archive/2014/09/23/reader/index.html</loc>
+    <lastmod>2014-11-22T05:01:44Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://openmetric.org/brief/archive/2014/09/25/martiansky/index.html</loc>
+    <lastmod>2014-11-22T05:01:44Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://openmetric.org/brief/archive/2014/11/08/dream-a-new-world/index.html</loc>
+    <lastmod>2014-11-22T05:01:44Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://openmetric.org/brief/archive/archives/2014/07/index.html</loc>
+    <lastmod>2014-11-22T05:01:44Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://openmetric.org/brief/archive/archives/2014/09/index.html</loc>
+    <lastmod>2014-11-22T05:01:44Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://openmetric.org/brief/archive/archives/2014/11/index.html</loc>
+    <lastmod>2014-11-22T05:01:44Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://openmetric.org/brief/archive/archives/2014/index.html</loc>
+    <lastmod>2014-11-22T05:01:44Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://openmetric.org/brief/archive/archives/index.html</loc>
+    <lastmod>2014-11-22T05:01:44Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://openmetric.org/brief/archive/categories/科幻/index.html</loc>
+    <lastmod>2014-11-22T05:01:44Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://openmetric.org/brief/archive/index.html</loc>
+    <lastmod>2014-11-22T05:01:44Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://openmetric.org/brief/archive/tags/星际移民/index.html</loc>
+    <lastmod>2014-11-22T05:01:44Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://openmetric.org/brief/archive/tags/科幻/index.html</loc>
+    <lastmod>2014-11-22T05:01:44Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://openmetric.org/brief/cn/index.html</loc>
+    <lastmod>2014-11-22T10:08:35Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://openmetric.org/brief/index.html</loc>
+    <lastmod>2015-02-03T20:42:51Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+</urlset>
