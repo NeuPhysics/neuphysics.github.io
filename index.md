@@ -5,9 +5,9 @@ title:
 ---
 
 
-<div class="front-cover" style="background:url(./images/{{ site.cover_image }}) no-repeat fixed center;background-size:cover;overflow:hidden;height:400px !important;">
+<div class="front-cover" style="background:url(./images/{{ site.cover_image }}) no-repeat fixed center;background-size:cover;overflow:hidden;/*height:400px !important;*/">
 
-    <section>
+    <section style="background-color:rgba(0,0,0,0.6);padding-bottom:1em;">
         <div class="container" style="padding-top:1em;">
             <h1 style="text-align:center;color:#fff;font-weight:600;" id="site-title-front">{{ site.title }}</h1>
             {% if site.description %}<h3 style="text-align:center;color:#fff;font-weight:600;font-size:90%;">{{ site.description }}</h3>{% endif %}
