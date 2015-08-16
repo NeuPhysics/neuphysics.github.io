@@ -25,9 +25,14 @@ title:
 </div>
 
 
+------
 
 
-Let's talk a little bit about neutrino phyiscs. Here is a [Neutrino Document](http://neutrino.readthedocs.org/).
+
+Here is a list of projects.
+
+* [Neutrino Document](http://neutrino.readthedocs.org/)
+* [Numerical Methods](https://github.com/NeuPhysics/NumSolTUn)
 
 
 -----

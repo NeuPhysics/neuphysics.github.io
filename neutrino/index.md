@@ -5,8 +5,6 @@ title: Neutrino Physics
 
 
 
-* [Neutrino Document](http://neutrino.readthedocs.org/)
-* [Numerical Methods](https://github.com/NeuPhysics/NumSolTUn)
 
 
 
