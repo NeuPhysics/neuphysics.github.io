@@ -11,3 +11,7 @@
 - title: About
   url: /about/
   excerpt: "About NeuPhysics"
+  
+- title: Notes
+  url: http://neutrino.readthedocs.org
+  excerpt: "A Series of Notes on Neutrino"
