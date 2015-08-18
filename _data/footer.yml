@@ -3,11 +3,14 @@
 - title: Subscribe
   url: /subscribe/
 
-- title: Neutrino Document
-  url: http://neutrino.readthedocs.org
-
 - title: GitHub
   url: https://github.com/NeuPhysics
 
 - title: Physics Research Manual
   url: http://cosmologytaskforce.github.io/PhysicsResearchSurvivalManual/
+
+- title: Statistical Physics
+  url: http://openmetric.org/StatisticalPhysics/
+  
+- title: Reasearch Tools
+  url: http://openmetric.org/tool/
