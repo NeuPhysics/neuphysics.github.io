@@ -1,73 +1,42 @@
 ---
-layout: archive
-permalink: /
+layout: page
 title:
+excerpt: "Neutrino Physics Explainer"
+search_omit: true
 ---
 
+This is a website concentrating on neutrino physics. Why? Because
 
-<div class="front-cover" style="background:url(./images/{{ site.cover_image }}) no-repeat fixed center;background-size:cover;overflow:hidden;/*height:400px !important;*/">
+> Neutrinos are amazing.
+>
+> They oscillate, steal energy from stars, permeate through you all the time.
+>
+> The big countries are spending huge money on this tiny mysterious particle.
+>
+> And? I love it.
 
-    <section style="background-color:rgba(0,0,0,0.6);padding-bottom:3em;">
-        <div class="container" style="padding-top:1em;">
-            <h1 style="text-align:center;color:#fff;font-weight:600;" id="site-title-front">{{ site.title }}</h1>
-            {% if site.description %}<h3 style="text-align:center;color:#fff;font-weight:600;font-size:90%;">{{ site.description }}</h3>{% endif %}
-        </div>
-<div class="featured" style="border-top:1px solid grey;margin:0 10% 0 10%;">
-<div style="background-image:linear-gradient(-130deg, rgba(14,21,58,0.3) 10%, rgba(74,76,123,0.5) 35%, rgba(161,140,171,0.2) 65%, rgba(243,201,215,0.2) 90%);">
-{% for post in site.posts limit:1 %}
-<h3 style="text-align:center;font-size:120%;">Recent：<a href="{{ site.url }}{{ post.url }}" style="text-align:center;color:white;font-weight:600;">{{ post.title }}</a></h3>
-<p style="text-align:left;color:#fff;font-size:90%;padding-bottom:0.5em;padding-left:2%;padding-right:2%;">{{ post.summary }}</p>
-{% endfor %}
+
+
+<div align="center" style="border-style:solid;">
+<h1 align="center">PROJECTS</h1>
+<hr>
+<ul>
+  <li style="list-style-type: none;"><a href="http://docs.neutrino.xyz" class="btn"><i class="fa fa-bookmark-o"></i> &nbsp; Neutrino Physics Notebook</a> <p>A notebook of neutrino physics with a lot of topics calculated and explained</p></li>
+  <hr style="border-top: dotted 1px;width:80%;" />
+  <li style="list-style-type: none;"><a href="http://neutrino.xyz/neutrino-map" class="btn"><i class="fa fa-map-signs"></i> &nbsp; Neutrino Physics Map</a>
+  <p>A concept map of neutrino physics</p>
+  </li>
+<hr style="border-top: dotted 1px;width:80%;" />
+  <li style="list-style-type: none;"><a href="https://github.com/NeuPhysics/aNN" class="btn"><i class="fa fa-flask"></i> &nbsp; Artificial Neural Network</a>
+<p>Artificial neural network equation solver, with a crash course for physicists</p>
+  </li>
+<hr style="border-top: dotted 1px;width:80%;" />
+  <li style="list-style-type: none;"><a href="https://github.com/NeuPhysics/neupackage" class="btn"><i class="fa fa-suitcase"></i> &nbsp; Neutrino Packages</a>
+<p>
+Python and Mathematica packages for neutrino physics, WIP
+</p>
+  </li>
+<hr style="border-top: dotted 1px;width:80%;" />
+  <li style="list-style-type: none;"><a href="http://github.com/NeuPhysics" class="btn"><i class="fa fa-github"></i> &nbsp; More on GitHub</a></li>
+</ul>
 </div>
-</div>
-    </section>
-
-</div>
-
-
-------
-
-
-
-Here is a list of projects.
-
-* [Neutrino Document](http://neutrino.readthedocs.org/)
-* [Numerical Methods](https://github.com/NeuPhysics/NumSolTUn)
-
-
------
-
-
-
-## Neutrino Articles
-
-<div class="tiles">
-{% for post in site.categories.neutrino limit:5 %}
-	{% include post-list.html %}
-{% endfor %}
-</div><!-- /.tiles -->
-
-	{% if site.categories.neutrino.size %}
-<a href="./neutrino/">All Neutrino Articles ({{ site.categories.neutrino.size }})</a>
-		{% else %}
-No Neutrino Articles, for now.
-		{% endif %}
-
-
-## Neutrino Experiments
-
-<div class="tiles">
-
-{% for post in site.categories.experiment limit:5 %}
-	{% include post-list.html %}
-{% endfor %}
-
-</div><!-- /.tiles -->
-
-
-
-	{% if site.categories.experiment.size %}
-<a href="./experiment/">All Neutrino Experiments Articles ({{ site.categories.experiment.size }})</a>
-		{% else %}
-No Neutrino Experiments Articles, for now.
-		{% endif %}

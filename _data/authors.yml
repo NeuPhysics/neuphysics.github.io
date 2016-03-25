@@ -1,3 +1,5 @@
+# Authors
+
 OctoMiao:
     name: OctoMiao
     display_name: OctoMiao
@@ -12,23 +14,22 @@ OctoMiao:
     github: https://github.com/emptymalei
     facebook:
     researchgate: https://www.researchgate.net/profile/Lei_MA
-InterImm:
-    name: 星际移民中心
-    display_name: 星际移民中心
-    gravatar:
-    avatar: interimm.png
-    email: interimm@qq.com
-    web: http://interimm.org
-    weibo: http://www.weibo.com/iiaofficial
-    bio: "<b>星际移民中心</b>"
-    douban:
-    twitter:
-    github:
-example:
-    name: First Name
-    display_name: DisplayName
-    gravatar:
-    email: example@company.com
-    web: http://example.com
-    twitter:
-    github:
+
+billy_rick:
+  name: Billy Rick
+  web: http://thewhip.com
+  email: billy@rick.com
+  bio: "What do you want, jewels? I am a very extravagant man."
+  avatar: bio-photo-2.jpg
+  twitter: extravagantman
+  google:
+    plus: BillyRick
+
+cornelius_fiddlebone:
+  name: Cornelius Fiddlebone
+  email: cornelius@thewhip.com
+  bio: "I ordered what?"
+  avatar: bio-photo.jpg
+  twitter: rhymeswithsackit
+  google:
+    plus: CorneliusFiddlebone
