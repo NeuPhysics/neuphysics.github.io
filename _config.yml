@@ -1,67 +1,73 @@
 # Site wide configuration
 
-title: Neutrino Physics
-subtitle: "The particle"
-description: "Oscillations, Interactions"
-version: "ν"
-logo: logo-120x120.png # 120x120 px default image used for Twitter summary card
-teaser: # 400x250 px default teaser image used in image archive grid
-locale: en
-# url: ./
+title: NEUTRINO
+locale: en_US
+description: Neutrino Physics Research
+logo: logo.png
+search: false
+#url: http://localhost:4000
 url: http://neutrino.xyz
-baseurl: /
 
 # Jekyll configuration
 
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: rouge
 sass:
-    sass_dir: _sass
-    style: compressed
-permalink: /:categories/:title/
-markdown: kramdown
-highlighter: pygments
+  sass_dir: _sass
+  style: compressed
 gems:
   - jekyll-sitemap
+  - jekyll-gist
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..2
+  enable_coderay: false
+
+mathjax: true
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
 
 
-share: false
+# Octopress
 
+# Default extensions
+post_ext: md
+page_ext: md
 
+# Found in _templates/
+post_layout: post
+page_layout: page
 
-# New Settings
-
-cover_image: front-cover.jpg
-
-
-
-
+# Format titles with titlecase?
+titlecase: true
 
 
 # Site owner
 owner:
-  name: "OctoMiao"
-  email: octomiao@interimm.org
-  twitter: emptymalei
+  name: Lei Ma
+  avatar: bio-photo.jpg
+  email: leima@unm.edu
+  web: http://openmetric.org # owner's website
+  disqus-shortname: neuphysics
+  twitter: emptymalei #username
+  facebook: #username
+  github: emptymalei #username
+  stackexchange: #http://stackoverflow.com/users/123456/username
+  linkedin: #username
+  instagram: #username
+  flickr: #username
+  tumblr: #username
+  pinterest: #username
+  weibo: emptymalei #userid
   google:
+    plus: #username
+    analytics: UA-66327435-1
+    verify:
     ad-client:
     ad-slot:
-  bio: "Physics is the game."
-  avatar: octomiao.png # 160x160 px image for author byline
-  weibo: 章鱼喵-十只手
-disqus-shortname: neuphysics
-duoshuo-shortname: openmetric
-swiftype: pvPZzisc_WMzevPYp4Ts # swiftype code, only the code part in your swiftype js
-gacode: UA-66327435-1 # Google Analytics Code
-lang: en  # en or cn
-sharelang: en # en or cn
-
-# Plugins for github pages
-
-gems:
-- jekyll-mentions
-- jemoji
-- jekyll-redirect-from
-- jekyll-sitemap
-
-
-
-exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
+  bing-verify: 599851A4C43BFECAAB71CE962680AB75

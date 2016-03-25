@@ -1,17 +1,19 @@
 # Site navigation links
 
-- title: Neutrino
-  url: /neutrino/
-  excerpt: "Neutrino Physics"
-
-- title: Experiment
-  url: /experiment/
-  excerpt: "Neutrino Physics"
+- title: Home
+  url: /
 
 - title: About
   url: /about/
-  excerpt: "About NeuPhysics"
-  
-- title: Notes
+
+- title: Articles
+  url: /articles
+
+- title: Resources
+  url: /resources
+
+- title: Neutrino Notes
   url: http://docs.neutrino.xyz
-  excerpt: "A Series of Notes on Neutrino"
+
+- title: Neutrino Map
+  url: http://neutrino.xyz/neutrino-map
