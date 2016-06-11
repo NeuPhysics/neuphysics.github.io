@@ -27,6 +27,12 @@ This is a website concentrating on neutrino physics. Why? Because
   <p>A concept map of neutrino physics</p>
   </li>
 <hr style="border-top: dotted 1px;width:80%;" />
+
+  <li style="list-style-type: none;"><a href="http://neutrino.xyz/neutrino-oscillation-js/" class="btn"><i class="fa fa-map-signs"></i> &nbsp; Neutrino Oscillation JS</a>
+  <p>Demonstrate neutrino oscillations using javascript</p>
+  </li>
+<hr style="border-top: dotted 1px;width:80%;" />
+
   <li style="list-style-type: none;"><a href="https://github.com/NeuPhysics/aNN" class="btn"><i class="fa fa-flask"></i> &nbsp; Artificial Neural Network</a>
 <p>Artificial neural network equation solver, with a crash course for physicists</p>
   </li>
