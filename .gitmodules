@@ -1,0 +1,3 @@
+[submodule "quantum-field-theory"]
+	path = _quantum-field-theory
+	url = https://github.com/NeuPhysics/quantum-field-theory
