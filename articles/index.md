@@ -12,6 +12,19 @@ search_omit: true
 {:toc}
 
 
+
+
+## Quantum Field Theory Reading Club
+
+<ul class="post-list">
+{% assign qft = site.quantum-field-theory | sort: 'title' %}
+{% for post in qft %}
+  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.author | date_to_xmlschema }}"> by &nbsp; {{ post.author }}</time></span>{% if post.excerpt %} <span class="excerpt">{{ post.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>{% endif %}</a></article></li>
+{% endfor %}
+</ul>
+
+
+
 ## Articles about Neutrinos in General
 
 

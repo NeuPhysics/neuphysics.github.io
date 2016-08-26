@@ -1,0 +1,384 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>14.Noise in Refractory Kernel and Diffusive Noise &#8211; NEUTRINO</title>
+<meta name="description" content="Noise Using Stochastic Parameter
+
+">
+<meta name="keywords" content="">
+
+
+<!-- Twitter Cards -->
+<meta name="twitter:title" content="14.Noise in Refractory Kernel and Diffusive Noise">
+<meta name="twitter:description" content="Noise Using Stochastic Parameter
+
+">
+<meta name="twitter:site" content="@emptymalei">
+
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://localhost:4000/images/logo.png">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="14.Noise in Refractory Kernel and Diffusive Noise">
+<meta property="og:description" content="Noise Using Stochastic Parameter
+
+">
+<meta property="og:url" content="http://localhost:4000/spiking-neuron-models/14.slow-noise/">
+<meta property="og:site_name" content="NEUTRINO">
+
+
+<meta name="msvalidate.01" content="599851A4C43BFECAAB71CE962680AB75">
+
+
+<link rel="canonical" href="http://localhost:4000/spiking-neuron-models/14.slow-noise/">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="NEUTRINO Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+<!-- Webfonts -->
+<script src="https://use.edgefonts.net/source-sans-pro:n2,i2,n3,i3,n4,i4,n6,i6,n7,i7,n9,i9;source-code-pro:n4,n7;volkhov.js"></script>
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- HTML5 Shiv and Media Query Support -->
+<!--[if lt IE 9]>
+  <script src="http://localhost:4000/assets/js/vendor/html5shiv.min.js"></script>
+  <script src="http://localhost:4000/assets/js/vendor/respond.min.js"></script>
+<![endif]-->
+
+<!-- Modernizr -->
+<script src="http://localhost:4000/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
+
+
+<!-- MathJax -->
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144-precomposed.png">
+
+</head>
+
+<body id="post">
+
+<div class="navigation-wrapper">
+	<nav role="navigation" id="site-nav" class="animated drop">
+	    <ul>
+      
+		    
+		    <li><a href="http://localhost:4000/" >Home</a></li>
+		  
+		    
+		    <li><a href="http://localhost:4000/about/" >About</a></li>
+		  
+		    
+		    <li><a href="http://localhost:4000/articles" >Articles</a></li>
+		  
+		    
+		    <li><a href="http://localhost:4000/resources" >Resources</a></li>
+		  
+		    
+		    <li><a href="http://docs.neutrino.xyz" target="_blank">Neutrino Notes</a></li>
+		  
+		    
+		    <li><a href="http://neutrino.xyz/neutrino-map" target="_blank">Neutrino Map</a></li>
+		  
+		    
+		    <li><a href="http://neutrino.xyz/neutrino-oscillation-js/" target="_blank">Neutrino JS</a></li>
+		  
+	    </ul>
+	</nav>
+</div><!-- /.navigation-wrapper -->
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+
+<header class="masthead">
+	<div class="wrap">
+      
+  		<a href="http://localhost:4000/" class="site-logo" rel="home" title="NEUTRINO"><img src="http://localhost:4000/images/logo.png" width="200" height="200" alt="NEUTRINO logo" class="animated fadeInDown"></a>
+      
+      <h1 class="site-title animated fadeIn"><a href="http://localhost:4000/">NEUTRINO</a></h1>
+		<h2 class="site-description animated fadeIn" itemprop="description">Neutrino Physics Research</h2>
+	</div>
+</header><!-- /.masthead -->
+
+<div class="js-menu-screen menu-screen"></div>
+
+
+<div id="main" role="main">
+  <article class="hentry">
+    
+    <div class="entry-wrapper">
+      <header class="entry-header">
+        <ul class="entry-tags">
+          
+        </ul>
+        
+          <h1 class="entry-title">14.Noise in Refractory Kernel and Diffusive Noise</h1>
+        
+      </header>
+      <footer class="entry-meta">
+        
+        
+          <img src="http://localhost:4000/images/authors/octomiao.jpg" class="bio-photo" alt="OctoMiao bio photo"></a>
+        
+        <span class="author vcard">By <span class="fn">OctoMiao</span></span>
+        <span class="entry-date date published"><time datetime="2016-07-22T00:00:00-06:00"><i class="fa fa-calendar-o"></i> July 22, 2016</time></span>
+        
+        
+        <span class="social-share-twitter">
+          <a href="https://github.com/emptymalei" title="Author's Github"><i class="fa fa-github-square"></i> Author's GitHub</a>
+        </span>
+        
+        
+        
+        
+      </footer>
+      <div class="entry-content">
+        <h2 id="noise-using-stochastic-parameter">Noise Using Stochastic Parameter</h2>
+
+<p>For a short review of <strong>refractory kernel</strong>, please refer to page 114 of the textbook (4.2.3 Simplified model SRM0), i.e.,</p>
+
+<script type="math/tex; mode=display">u_i(t) = \sum_f \eta_0 (t-t_i^{(f)}) + \sum_j w_{ij} \sum_f \epsilon_0 (t-t_j^{(f)}) + \int_0^\infty \kappa_0  (s)  I_i ^{ext} (t-s) ds.</script>
+
+<p>For noise models, we define refractory kernel</p>
+
+<script type="math/tex; mode=display">\eta(s) = \eta_0 e^{-s/\tau},</script>
+
+<p>where</p>
+
+<script type="math/tex; mode=display">\eta_0 \equiv \eta_0(r) = \tilde \eta_0 e^{r/\tau},</script>
+
+<p>which in turn is plugged back into the refractory kernel,</p>
+
+<script type="math/tex; mode=display">\eta(s) = \tilde \eta_0 e^{- (s-r)/\tau}.</script>
+
+<p>We require that $r$ to be a parameter with mean $\langle r \rangle  = 0$.</p>
+
+<p>We discussed threshold in 5.3.1 where we said spikes occur with probability density</p>
+
+<script type="math/tex; mode=display">\rho = f(u-\theta),</script>
+
+<p>in which $\theta$ is the threshold. For noise model the threshold is a noisy function.</p>
+
+<p>“Noise reset” model</p>
+
+<script type="math/tex; mode=display">\theta = u(t \vert \hat t, r) = \eta_0(r) e^{-(t-\hat t)/\tau} + \int_0^\infty \kappa (t-\hat t,s) I(t-s) ds.</script>
+
+<p>Spike occur at $t$ when the potential reaches threshold $u(t\vert \hat t,r)=\theta$, thus the interval of spike is given by</p>
+
+<script type="math/tex; mode=display">T(\hat t,r) = \mathrm{min}\left[ t -\hat t \vert u(t\vert \hat t,r)=\theta \right].</script>
+
+<p>Interval distribution:</p>
+
+<script type="math/tex; mode=display">P_I(t\lvert \hat t) = \int dr \delta ( t-\hat t - T(\hat t, r) ) \mathscr{G}_0(r).</script>
+
+<p>SRM0 model:</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\begin{align}
+u(t\lvert \hat t,r) &= \eta_r(t-\hat t) + h(t)\\
+&= \tilde \eta_0 e^{-(t-\hat t- r)/\tau} + h(t).
+\end{align} %]]></script>
+
+<p>The stochastic parameter $r$ work as a shift of the spikes on time axis.</p>
+
+<h2 id="diffusive-noise">Diffusive Noise</h2>
+
+<p>Integrate-and-fire model:</p>
+
+<script type="math/tex; mode=display">\tau_m \frac{d}{d t} u = - u + R I(t).</script>
+
+<ul>
+  <li>Membrane time constant $\tau_m$;</li>
+  <li>Input resistance $R$;</li>
+  <li>Input current $I$.</li>
+</ul>
+
+<p>Introducing noise: add noise to the RHS,</p>
+
+<script type="math/tex; mode=display">\tau_m \frac{d}{d t} u = - u + R I(t) + \xi (t),</script>
+
+<p>where $\xi(t)$ is a stochastic term thus the equation becomes a stochastic differential equation.</p>
+
+<p><strong>Figure 5.12 is a very nice plot showing the effect of $\xi$ on threshold.</strong></p>
+
+<p>For a Gaussian white noise</p>
+
+<script type="math/tex; mode=display">\langle \xi(t) \xi(t') \rangle  = \sigma^2 \tau_m \delta(t-t').</script>
+
+<ul>
+  <li>$\sigma$ amplitude of noise;</li>
+  <li>$\tau_m$ membrane time constant.</li>
+</ul>
+
+<p>c.f. <strong><a href="https://en.wikipedia.org/wiki/Ornstein%E2%80%93Uhlenbeck_process">Ornstein-Uhlenbeck process</a></strong>.</p>
+
+<h3 id="stochastic-spike-arrival">Stochastic Spike Arrival</h3>
+
+<p>In a network, a integrate-and-fire neuron will take in</p>
+
+<ul>
+  <li>input $I^{ext}(t)$,</li>
+  <li>input spikes at $t^{(f)}_j$, where $j$ means the spike from neuron $j$,</li>
+  <li>stochastic spikes (from the background of the brain that we are not really interested in for now) $t_k^{(f)}$,</li>
+</ul>
+
+<p>so that</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\frac{d}{dt} u = - \frac{u}{\tau_m} + \frac{1}{C}I^{ext}(t) + \sum_j \sum_{t_j^{(f)} > \hat t} w_j \delta(t- t_j^{(f)}) + \sum_k \sum_{t_k^{(f)} < \hat t} w_k \delta(t-t_k^{(f)}), %]]></script>
+
+<p>which is called Stein’s model.</p>
+
+<p>The stochastic spike arrivals are Poissonian.</p>
+
+<h4 id="example-membrane-potential-fluctuations">Example: Membrane Potential Fluctuations</h4>
+
+<ul>
+  <li>Poisson process with rate $\nu$</li>
+  <li>
+    <p>Input spike train
+<script type="math/tex">S(t) = \sum_{k=1}^N \sum_{t_k^{(f)}} \delta(t-t_k^{(f)}),</script></p>
+
+    <p>which has an average</p>
+
+    <script type="math/tex; mode=display">\langle S(t) \rangle = \nu_0,</script>
+
+    <p>and autocorrelation</p>
+
+    <script type="math/tex; mode=display">\langle S(t) S(t')\rangle - \nu_0^2 = N\nu_0 \delta(t-t').</script>
+
+    <p>$\nu_0^2$ is from the constant hazard $\rho_0(t-\hat t) = \nu$ and Poisson has autocorrelation $C_{ii}(s) = \nu \delta(s) + \nu^2$.</p>
+  </li>
+  <li>
+    <p>Neglect both threshold and reset, which basically means weak input so that neuron doesn’t reach firing threshold.
+<script type="math/tex">u(t) = w_0 \int_0^\infty \epsilon_0(s) S(t-s) ds</script></p>
+
+    <p>Also neglect the term $-u/\tau_m$?</p>
+  </li>
+  <li>Average over time we have
+<script type="math/tex">u_0 \equiv \langle u(t) \rangle = w_0 \nu_0 \int_0^\infty \epsilon_0(s)ds.</script></li>
+  <li>Variance of potential
+<script type="math/tex">% <![CDATA[
+\begin{align}
+\langle (u-u_0)^2 \rangle &= w_0^2 \left\langle \left( \int_0^\infty \epsilon_0(s) S(t-s)  - w_0 \nu_0 \int_0^\infty \epsilon_0(s)ds \right)^2 \right\rangle \\
+& =  \left\langle  w_0^2 \int_0^\infty \int_0^\infty \epsilon_0(s) \epsilon_0(s') S(t-s)  S(t-s')  ds' ds - 2 u_0  w_0 \nu_0 \int_0^\infty \epsilon_0(s) S(t-s)ds + u_0^2 \right\rangle  \\
+& =  \left\langle  w_0^2 \int_0^\infty \int_0^\infty \epsilon_0(s) \epsilon_0(s') S(t-s)  S(t-s')  ds' ds  \right\rangle  - 2 u_0  w_0  \left\langle \nu_0 \int_0^\infty \epsilon_0(s) S(t-s)ds \right\rangle  + u_0^2   \\
+& = \left\langle  w_0^2 \int_0^\infty \int_0^\infty \epsilon_0(s) \epsilon_0(s') S(t-s)  S(t-s')  ds' ds  \right\rangle  - 2 u_0^2  + u_0^2 \\
+& = w_0^2 \nu_0 \int_0^\infty \epsilon_0(s)^2ds
+\end{align} %]]></script></li>
+</ul>
+
+<p><strong>Figure 5.14</strong>: We have equation 5.83 $\langle \delta u^2 \rangle = 0.5 \tau_m \sum_k w_k^2 \nu_k$, larger $w_k$ will give us larger variance of potential so that the spikes are more probable.</p>
+
+<h3 id="diffusion-limit">Diffusion Limit</h3>
+
+<p>Stein model</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\frac{d}{dt} u = - \frac{u}{\tau_m} + \frac{1}{C}I^{ext}(t) + \sum_j \sum_{t_j^{(f)} > \hat t} w_j \delta(t- t_j^{(f)}) + \sum_k \sum_{t_k^{(f)} < \hat t} w_k \delta(t-t_k^{(f)}), %]]></script>
+
+<p><strong>After each firing, probability density of membrane potential can be calculated.</strong></p>
+
+<p>Between $\Delta t$, the probability of firing is $\sum_k\nu_k \Delta t$. As a result, the probability of quite is</p>
+
+<script type="math/tex; mode=display">1 - \sum_k\nu_k \Delta t.</script>
+
+<p>During this time the membrane potential will decay</p>
+
+<script type="math/tex; mode=display">u(t+\Delta t) = u(t) e^{-\Delta t/\tau_m}.</script>
+
+<p>Incoming spike at synapse $k$:</p>
+
+<script type="math/tex; mode=display">u(t+\Delta t) = u(t) e^{-\Delta t/\tau_m} + w_k.</script>
+
+        
+      </div><!-- /.entry-content -->
+    </div><!-- /.entry-wrapper -->
+    <nav class="pagination" role="navigation">
+      
+        <a href="http://localhost:4000/spiking-neuron-models/13.all_neuron_models/" class="btn" title="13.Comparison Between Neuron Models">Previous</a>
+      
+      
+        <a href="http://localhost:4000/spiking-neuron-models/12.Escape_Noise/" class="btn" title="09.Escape Noise">Next</a>
+      
+    </nav><!-- /.pagination -->
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo" class="entry-wrapper">
+    
+
+<span>&copy; 2016 <a href="http://openmetric.org" style="text-decoration: underline;" target="_blank">Lei Ma</a>. Powered by <a href="http://jekyllrb.com" style="text-decoration: underline;" rel="nofollow">Jekyll</a> using the <a href="https://mademistakes.com/work/so-simple-jekyll-theme/" style="text-decoration: underline;" rel="nofollow">So Simple Theme</a>.</span>
+<div class="social-icons">
+	<a href="https://twitter.com/emptymalei" title="Lei Ma on Twitter" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
+	
+	
+	
+	
+	
+	
+	<a href="https://github.com/emptymalei" title="Lei Ma on Github" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
+	
+  
+	<a href="https://www.weibo.com/u/emptymalei/" title="Lei Ma on Weibo" target="_blank"><i class="fa fa-weibo fa-2x"></i></a>
+  <a href="http://localhost:4000/feed.xml" title="Atom/RSS feed"><i class="fa fa-rss fa-2x"></i></a>
+</div><!-- /.social-icons -->
+
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<script type="text/javascript">
+  var BASE_URL = 'http://localhost:4000';
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://localhost:4000/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://localhost:4000/assets/js/scripts.min.js"></script>
+
+
+<!-- Asynchronous Google Analytics snippet -->
+<script>
+  var _gaq = _gaq || [];
+  var pluginUrl =
+ 'https://www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', 'UA-66327435-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = 'https://stats.g.doubleclick.net/dc.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+
+</body>
+</html>

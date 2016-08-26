@@ -5,16 +5,20 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Tag Index &#8211; NEUTRINO</title>
-<meta name="description" content="An archive of posts sorted by tag.">
+<title>11.Renewal Theory &#8211; NEUTRINO</title>
+<meta name="description" content="Renewal Theory
 
+">
+<meta name="keywords" content="">
 
 
 <!-- Twitter Cards -->
-<meta name="twitter:title" content="Tag Index">
-<meta name="twitter:description" content="An archive of posts sorted by tag.">
+<meta name="twitter:title" content="11.Renewal Theory">
+<meta name="twitter:description" content="Renewal Theory
+
+">
 <meta name="twitter:site" content="@emptymalei">
-<meta name="twitter:creator" content="@emptymalei">
+
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://localhost:4000/images/logo.png">
@@ -22,16 +26,18 @@
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Tag Index">
-<meta property="og:description" content="An archive of posts sorted by tag.">
-<meta property="og:url" content="http://localhost:4000/tags/">
+<meta property="og:title" content="11.Renewal Theory">
+<meta property="og:description" content="Renewal Theory
+
+">
+<meta property="og:url" content="http://localhost:4000/spiking-neuron-models/11.Stationary_Renewal_Theory/">
 <meta property="og:site_name" content="NEUTRINO">
 
 
 <meta name="msvalidate.01" content="599851A4C43BFECAAB71CE962680AB75">
 
 
-<link rel="canonical" href="http://localhost:4000/tags/">
+<link rel="canonical" href="http://localhost:4000/spiking-neuron-models/11.Stationary_Renewal_Theory/">
 <link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="NEUTRINO Feed">
 
 <!-- https://t.co/dKP3o1e -->
@@ -56,62 +62,6 @@
 <script src="http://localhost:4000/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
 
 
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({ TeX: { extensions: ["color.js","cancel.js", "AMSmath.js", "AMSsymbols.js"] }});
-  </script>
-  <script type="text/x-mathjax-config">
-  MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {
-    MathJax.Hub.Insert(MathJax.InputJax.TeX.Definitions.macros,{
-      cancel: ["Extension","cancel"]
-      });
-   });
-   </script>
-  <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-      tex2jax: {
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-      }
-    });
-</script>
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Queue(function() {
-        var all = MathJax.Hub.getAllJax(), i;
-        for(i=0; i < all.length; i += 1) {
-            all[i].SourceElement().parentNode.className += ' has-jax';
-        }
-    });
-</script>
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      processEscapes: true
-    }
-  });
-</script>
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
-});
-</script>
-  <script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    TeX: {
-      Macros: {
-        overlr: ['\\overset\\leftrightarrow{\#1}',1],
-        overl: ['\\overset\leftarrow{\#1}',1],
-        overr: ['\\overset\rightarrow{\#1}',1],
-        bra: ['\\left\\langle \#1\\right|',1],
-        ket: ['\\left| \#1\\right\\rangle',1],
-        braket: ['\\langle \#1 \\mid \#2 \\rangle',2],
-        avg: ['\\left< \#1 \\right>',1],
-        slashed: ['\\cancel{\#1}',1],
-        bold: ['\\boldsymbol{\#1}',1],
-        sech: ['\\operatorname{sech}{\#1}',1],
-        csch: ['\\operatorname{csch}{\#1}',1]
-      }
-    }
-  });
-  </script>
 <!-- MathJax -->
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
@@ -132,7 +82,7 @@ MathJax.Hub.Config({
 
 </head>
 
-<body id="page">
+<body id="post">
 
 <div class="navigation-wrapper">
 	<nav role="navigation" id="site-nav" class="animated drop">
@@ -179,21 +129,110 @@ MathJax.Hub.Config({
 
 
 <div id="main" role="main">
-  <article class="entry">
+  <article class="hentry">
     
     <div class="entry-wrapper">
       <header class="entry-header">
-        <h1 class="entry-title">Tag Index</h1>
-      </header>
-      <div class="entry-content">
+        <ul class="entry-tags">
+          
+        </ul>
         
-<ul class="tag-box inline">
-  
-</ul>
+          <h1 class="entry-title">11.Renewal Theory</h1>
+        
+      </header>
+      <footer class="entry-meta">
+        
+        
+        <span class="author vcard">By <span class="fn"></span></span>
+        <span class="entry-date date published"><time datetime="2016-07-05T00:00:00-06:00"><i class="fa fa-calendar-o"></i> July 05, 2016</time></span>
+        
+        
+        
+        
+        
+      </footer>
+      <div class="entry-content">
+        <h2 id="renewal-theory">Renewal Theory</h2>
 
+<p>Review of three key functions:</p>
 
+<ol>
+  <li>$P_I$: probability density of finding spikes. Also called hazard function. Thus $\int_{\hat t}^{t_f} P(t\mid \hat t)dt$ is the probability of finding spikes during $[\hat t, t_f]$.</li>
+  <li>$S_I$: survivor function. Defined as $S_I(t\mid \hat t) = 1 - \int_{\hat t}^t P_I(t’\mid \hat t) dt’$. The probability of staying quite during $[\hat t, t]$.</li>
+  <li>$\rho_I$: rate of decay, defined as $\rho_I(t\mid \hat t) = - \frac{d}{dt} S_I(t\mid \hat t) \big / S)I(t\mid \hat t)$.</li>
+</ol>
+
+<p>Relations between the three:
+<script type="math/tex">P_I(t\mid \hat t) =\rho_I(t\mid \hat t) S_I(t\mid \hat t)</script></p>
+
+<script type="math/tex; mode=display">S_I(t\mid \hat t) = \exp\left(  - \int_{\hat t}^t \rho_I(t'\mid \hat t) dt' \right)</script>
+
+<h3 id="stationary-renewal-theory">Stationary Renewal Theory</h3>
+
+<p>Stationary input? Not easily realized in experiments (for in vivo experiments). Reasoning: in put to a neuron by other neurons in vivo is not necessarily constant.</p>
+
+<p>in vitro experiments: impose constant input current.</p>
+
+<p>Three  important quantities:</p>
+
+<ol>
+  <li>
+    <p>mean firing rate, $\nu = 1/\langle s\rangle$, where the mean interval $\langle s\rangle = \int_0^\infty s P_0(s) ds$. Since $P_0=-dS_0(s)/ds$, we have $P_0(s) ds= -dS_0(s)$, which leads to</p>
+
+    <script type="math/tex; mode=display">\langle s\rangle  = -\int_0^\infty s \cdot \mathrm dS_0(s) =- \int_0^\infty s S_0(s)ds - \left(  -\int_0^\infty S_0(s)ds \right)</script>
+  </li>
+  <li>
+    <p>autocorrelation function,
+$$</p>
+
+    <p>C(s) = \langle S_i(t) S_i(t+s) \rangle_t = \frac{1}{T} \int_{-T/2}^{T/2}  S_i(t) S_i(t+s)dt</p>
+
+    <p>$$</p>
+  </li>
+  <li>
+    <p>power spectrum, which is defined as
+<script type="math/tex">\mathscr P_T(\omega) = \frac{1}{T} \left \vert  \int_{-T/2}^{T/2} S_i(t) e^{-i\omega t}  \right \vert^2</script>
+The importance of it, is that we could find out which frequency mode has the most important amplitude.</p>
+
+    <p>​</p>
+
+    <p>Note that Wiener-Khinchin theorem says $P(\omega) = \hat C(\omega) = \mathscr{F}(C(s))$.(Proof is straightforward.)</p>
+  </li>
+</ol>
+
+<p><strong>signal to noise ratio</strong></p>
+
+<h4 id="derive-autocorrelation-function-of-stationary-renewal-process">Derive Autocorrelation function of stationary renewal process</h4>
+
+<p>Define normalized autocorrelation
+<script type="math/tex">C^0(s) = C(s) -\nu_i^2</script>
+Autocorrelation for $s&gt;0$
+<script type="math/tex">\nu_i C_+(s) = C(s)\Theta(s)</script></p>
+
+<h3 id="some-questions-and-comments-about-the-book">Some Questions and Comments about The Book</h3>
+
+<ol>
+  <li>
+    <p>On page 160, $\nu \Delta t$ should be the number of spike during $\Delta t$ . IF we think of it as the probability of spikes, this is not normalized.</p>
+  </li>
+  <li>
+    <p>Dirac delta function has an integral form
+<script type="math/tex">\delta(\omega) = \frac{1}{2\pi} \int_{-\infty}^\infty e^{itx} dt</script>
+​</p>
+  </li>
+</ol>
+
+        
       </div><!-- /.entry-content -->
     </div><!-- /.entry-wrapper -->
+    <nav class="pagination" role="navigation">
+      
+        <a href="http://localhost:4000/spiking-neuron-models/10.Noise_and_Renewal_Process/" class="btn" title="10.Information Coding">Previous</a>
+      
+      
+        <a href="http://localhost:4000/spiking-neuron-models/13.all_neuron_models/" class="btn" title="13.Comparison Between Neuron Models">Next</a>
+      
+    </nav><!-- /.pagination -->
   </article>
 </div><!-- /#main -->
 

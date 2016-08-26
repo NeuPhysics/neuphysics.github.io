@@ -5,16 +5,16 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Reactor Neutrino Experiments &#8211; NEUTRINO</title>
-<meta name="description" content="Slides
+<title>16.stochastic process &#8211; NEUTRINO</title>
+<meta name="description" content="Noise types motivated in single neuron models
 
 ">
 <meta name="keywords" content="">
 
 
 <!-- Twitter Cards -->
-<meta name="twitter:title" content="Reactor Neutrino Experiments">
-<meta name="twitter:description" content="Slides
+<meta name="twitter:title" content="16.stochastic process">
+<meta name="twitter:description" content="Noise types motivated in single neuron models
 
 ">
 <meta name="twitter:site" content="@emptymalei">
@@ -26,18 +26,18 @@
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Reactor Neutrino Experiments">
-<meta property="og:description" content="Slides
+<meta property="og:title" content="16.stochastic process">
+<meta property="og:description" content="Noise types motivated in single neuron models
 
 ">
-<meta property="og:url" content="http://localhost:4000/neutrino/neutrino-reactor-experiments/">
+<meta property="og:url" content="http://localhost:4000/spiking-neuron-models/16.stochastic_process/">
 <meta property="og:site_name" content="NEUTRINO">
 
 
 <meta name="msvalidate.01" content="599851A4C43BFECAAB71CE962680AB75">
 
 
-<link rel="canonical" href="http://localhost:4000/neutrino/neutrino-reactor-experiments/">
+<link rel="canonical" href="http://localhost:4000/spiking-neuron-models/16.stochastic_process/">
 <link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="NEUTRINO Feed">
 
 <!-- https://t.co/dKP3o1e -->
@@ -62,62 +62,6 @@
 <script src="http://localhost:4000/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
 
 
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({ TeX: { extensions: ["color.js","cancel.js", "AMSmath.js", "AMSsymbols.js"] }});
-  </script>
-  <script type="text/x-mathjax-config">
-  MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {
-    MathJax.Hub.Insert(MathJax.InputJax.TeX.Definitions.macros,{
-      cancel: ["Extension","cancel"]
-      });
-   });
-   </script>
-  <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-      tex2jax: {
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-      }
-    });
-</script>
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Queue(function() {
-        var all = MathJax.Hub.getAllJax(), i;
-        for(i=0; i < all.length; i += 1) {
-            all[i].SourceElement().parentNode.className += ' has-jax';
-        }
-    });
-</script>
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      processEscapes: true
-    }
-  });
-</script>
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
-});
-</script>
-  <script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    TeX: {
-      Macros: {
-        overlr: ['\\overset\\leftrightarrow{\#1}',1],
-        overl: ['\\overset\leftarrow{\#1}',1],
-        overr: ['\\overset\rightarrow{\#1}',1],
-        bra: ['\\left\\langle \#1\\right|',1],
-        ket: ['\\left| \#1\\right\\rangle',1],
-        braket: ['\\langle \#1 \\mid \#2 \\rangle',2],
-        avg: ['\\left< \#1 \\right>',1],
-        slashed: ['\\cancel{\#1}',1],
-        bold: ['\\boldsymbol{\#1}',1],
-        sech: ['\\operatorname{sech}{\#1}',1],
-        csch: ['\\operatorname{csch}{\#1}',1]
-      }
-    }
-  });
-  </script>
 <!-- MathJax -->
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
@@ -193,61 +137,129 @@ MathJax.Hub.Config({
           
         </ul>
         
-          <h1 class="entry-title">Reactor Neutrino Experiments</h1>
+          <h1 class="entry-title">16.stochastic process</h1>
         
       </header>
       <footer class="entry-meta">
         
         
-          <img src="http://localhost:4000/images/authors/octomiao.jpg" class="bio-photo" alt="OctoMiao bio photo"></a>
+        <span class="author vcard">By <span class="fn"></span></span>
+        <span class="entry-date date published"><time datetime="2016-08-05T00:00:00-06:00"><i class="fa fa-calendar-o"></i> August 05, 2016</time></span>
         
-        <span class="author vcard">By <span class="fn">OctoMiao</span></span>
-        <span class="entry-date date published"><time datetime="2015-10-12T00:00:00-06:00"><i class="fa fa-calendar-o"></i> October 12, 2015</time></span>
-        <span class="entry-date date modified"><time datetime="2015-10-12"><i class="fa fa-pencil"></i> October 12, 2015</time></span>
-        <span class="entry-comments"><i class="fa fa-comment-o"></i> <a href="#disqus_thread">Comment</a></span>
+        
+        
         
         
       </footer>
       <div class="entry-content">
-        <h2 id="slides">Slides</h2>
+        <h1 id="noise-types-motivated-in-single-neuron-models">Noise types motivated in single neuron models</h1>
 
-<script async="" class="speakerdeck-embed" data-id="7ab50ddf48f3440499af61c6eb65eb87" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+<p>Why noise?</p>
 
+<p>During simulation, simplified neuron models like RSM, leaky integrate and fire model synthesize regular firing activity. However, in biological reality, the inter spike intervals are exponentially distributed, according to a point process of spike generation.</p>
 
-        
-          <div id="disqus_thread"></div><!-- /#disqus_thread -->
-          
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'neuphysics'; // required: replace example with your forum shortname
+<h2 id="escape-noise">escape noise:</h2>
 
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
+<p>focus on firing threshold, replace fixed firing threshold with firing probability based on the difference between firing threshold and membrane potential.<br />
+<script type="math/tex">\rho = f(u-\theta)      = \frac{1}{\Delta}\int_{-\infty}^{(u-\theta)} \frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{x^2}{2\sigma^2}}\mathrm{d}x</script></p>
 
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function () {
-        var s = document.createElement('script'); s.async = true;
-        s.type = 'text/javascript';
-        s.src = 'https://' + disqus_shortname + '.disqus.com/count.js';
-        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-    }());
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+<h2 id="slow-noise">slow noise:</h2>
+
+<p>focus on refractory time. $\eta$ is the exponential refractory kernel,</p>
+
+<p>$\eta(s)=\eta_0 e^{\frac{-s}{\tau}}$</p>
+
+<p>But the amount $\eta_0$ depends on a stochastic  variable $r$:</p>
+
+<p>$\eta_0(r)=\tilde \eta_0 e^{\frac{r}{\tau}}$</p>
+
+<h2 id="diffusive-noise">diffusive noise:</h2>
+
+<p>focus on stochastic synaptic inputs to the neuron, which leads to fluctuations of membrane potential. Firing or not is based on the distribution of membrane potential.</p>
+
+<p>Let’s look at a integrate-and-fire model, <br />
+<script type="math/tex">\frac{\mathrm{d}}{\mathrm{d}t}u(t)=-\frac{u(t)}{\tau_m}+\frac{1}{C}I^{ext}(t)+\sum_j\sum_{t_j^{(f)}>\tilde t}w_j\delta(t-t_j^{(f)})+\sum_k\sum_{t_k^{(k)}>\tilde t} w_k\delta(t-t_k^{(f)})</script>
+ $\delta(t-t_k^{(f)})$ is the superposition of all pre-synaptic inputs, weighted by $w_k$.<br />
+ This input spike train is generated by Poisson Process.</p>
+
+<h1 id="from-diffusive-noise-to-escape-noise">From diffusive noise to escape noise</h1>
+
+<p>For a model of diffusive noise, the membrane potential is normally distributed, even at the threshold level, if the neuron doesn’t fire immediately.<br />
+<script type="math/tex">% <![CDATA[
+P(u\sim \theta) = \Delta t e^{-\frac{[u_0(t)-\theta]^2}{2<\Delta u^2(t)>}} %]]></script>
+ According to Stochastic Process, $\Delta u^2(t)$ approaches a constant value of $\sigma^2/2$.</p>
+
+<p>So, the probability density at $\theta$ could be rewritten as<br />
+<script type="math/tex">f(u_0-\theta)=\frac{c_1}{\tau_m}e^{-\frac{[u_0(t)-\theta]^2}{\sigma^2}}</script>
+which share the same unit of one over time with $P(u\sim\theta)$, known as a escape rate formula.</p>
+
+<p>To define a shift of probability density function when $u$ crosses $\theta$: <br />
+<script type="math/tex">f(u_0,\dot u_0) = (\frac{c_1}{\tau_m} + \frac{c_2}{\sigma}[\dot u_0]_+) e^{-\frac{[u_0(t)-\theta]^2}{\sigma^2}},</script>
+with $x(t)=\frac{u_0(t)-\theta}{\sigma}$.</p>
+
+<p>So the similarity of diffusive noise and escape noise is that they all care about the difference between current membrane potential and threshold $u-\theta$, and the firing probability based on this difference.</p>
+
+<h1 id="stochastic-resonance">Stochastic resonance</h1>
+
+<p>notice: noise could improve the signal transmission property of neuronal system, especially in sub-threshold regime.</p>
+
+<p>Noise makes the neuron fire:<br />
+<script type="math/tex">|x|=|(u-\theta)/\sigma|.</script>
+If the normalized distance is small, the neuron has great probability to fire (exponentially dependence). If noise $\sigma$ is very large, $x^2 \sim 0$</p>
+
+<p>Find the optimal noise level: <strong>signal-to noise ratio(SNR)</strong></p>
+
+<p><script type="math/tex">\sigma^{opt} \approx \frac{2}{3}(\theta-u_\infty)</script>
+since $\sigma^2=2&lt;\Delta u^2&gt;$, the transmission is optimal if the stochastic fluctuations of the membrane potential have an amplitude:<br />
+<script type="math/tex">% <![CDATA[
+\frac{3}{\sqrt 2}\sqrt{<\Delta u^2>} \approx \theta-u_\infty %]]></script></p>
+
+<h1 id="stochastic-firing-and-rate-models">Stochastic firing and rate models</h1>
+
+<p>three rate models</p>
+
+<h2 id="analog-neurons-averaging-over-time">analog neurons (averaging over time)</h2>
+
+<p><script type="math/tex">v=\frac{n_{sp}(T)}{T}</script>
+$T$: time period</p>
+
+<p>$n$: spike counts over time $T$</p>
+
+<p>For constant current input $I_0$, the firing rate is a function of  $I_0$:</p>
+
+<p>$v=g(I_0)$,  which is called the <strong>gain function</strong> of the neuron.</p>
+
+<h2 id="stochastic-rate-model">stochastic rate model</h2>
+
+<p>definition: the process of generation a spike is stochastic, rate of the underlying Poisson process that generate the spikes.</p>
+
+<p>inhomogeneous Poisson model:</p>
+
+<p>$v_i=g(h_i)$,</p>
+
+<p>where $h_i(t)=\sum_j \sum_f w_{ij} \epsilon_0(t-t_j^{(f)})$</p>
+
+<p>stochastic model in discrete time(?)</p>
+
+<h2 id="population-rate-model">population rate model</h2>
+
+<p>an average activity of a population of equivalent neurons.</p>
+
+<script type="math/tex; mode=display">A(t)=\mathrm{lim}_{\Delta t \to0} \mathrm{lim}_{N\to\infty} \frac{1}{\Delta t} \frac{n_{act}(t;t+\Delta t)}{N}</script>
+
+<p>The interaction between two groups of neurons (group $l$ and group $k$) could be represented as:<br />
+<script type="math/tex">A_k=g(\sum_l J_{kl} A_l),</script></p>
+
+<p>where $g$ again is the gain function, but $J$ is not connection weights, but the effective interaction strength between two groups.</p>
+
 
         
       </div><!-- /.entry-content -->
     </div><!-- /.entry-wrapper -->
     <nav class="pagination" role="navigation">
       
-        <a href="http://localhost:4000/experiments/neutrino/" class="btn" title="Neutrino Reactor Experiments">Previous</a>
+        <a href="http://localhost:4000/spiking-neuron-models/15.Diffusive_Noise_and_The_subthreshold_Regime/" class="btn" title="15.Diffusive Noise and The Subthreshold Regime">Previous</a>
       
-      
-        <a href="http://localhost:4000/neutrino/cnb-detection-weiler/" class="btn" title="Resonant Absorption of Cosmic-Ray Neutrinos by CNB">Next</a>
       
     </nav><!-- /.pagination -->
   </article>

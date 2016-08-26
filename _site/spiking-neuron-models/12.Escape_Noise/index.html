@@ -5,16 +5,20 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Tag Index &#8211; NEUTRINO</title>
-<meta name="description" content="An archive of posts sorted by tag.">
+<title>09.Escape Noise &#8211; NEUTRINO</title>
+<meta name="description" content="Escape noise
 
+">
+<meta name="keywords" content="">
 
 
 <!-- Twitter Cards -->
-<meta name="twitter:title" content="Tag Index">
-<meta name="twitter:description" content="An archive of posts sorted by tag.">
+<meta name="twitter:title" content="09.Escape Noise">
+<meta name="twitter:description" content="Escape noise
+
+">
 <meta name="twitter:site" content="@emptymalei">
-<meta name="twitter:creator" content="@emptymalei">
+
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://localhost:4000/images/logo.png">
@@ -22,16 +26,18 @@
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Tag Index">
-<meta property="og:description" content="An archive of posts sorted by tag.">
-<meta property="og:url" content="http://localhost:4000/tags/">
+<meta property="og:title" content="09.Escape Noise">
+<meta property="og:description" content="Escape noise
+
+">
+<meta property="og:url" content="http://localhost:4000/spiking-neuron-models/12.Escape_Noise/">
 <meta property="og:site_name" content="NEUTRINO">
 
 
 <meta name="msvalidate.01" content="599851A4C43BFECAAB71CE962680AB75">
 
 
-<link rel="canonical" href="http://localhost:4000/tags/">
+<link rel="canonical" href="http://localhost:4000/spiking-neuron-models/12.Escape_Noise/">
 <link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="NEUTRINO Feed">
 
 <!-- https://t.co/dKP3o1e -->
@@ -56,62 +62,6 @@
 <script src="http://localhost:4000/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
 
 
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({ TeX: { extensions: ["color.js","cancel.js", "AMSmath.js", "AMSsymbols.js"] }});
-  </script>
-  <script type="text/x-mathjax-config">
-  MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {
-    MathJax.Hub.Insert(MathJax.InputJax.TeX.Definitions.macros,{
-      cancel: ["Extension","cancel"]
-      });
-   });
-   </script>
-  <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-      tex2jax: {
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-      }
-    });
-</script>
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Queue(function() {
-        var all = MathJax.Hub.getAllJax(), i;
-        for(i=0; i < all.length; i += 1) {
-            all[i].SourceElement().parentNode.className += ' has-jax';
-        }
-    });
-</script>
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      processEscapes: true
-    }
-  });
-</script>
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
-});
-</script>
-  <script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    TeX: {
-      Macros: {
-        overlr: ['\\overset\\leftrightarrow{\#1}',1],
-        overl: ['\\overset\leftarrow{\#1}',1],
-        overr: ['\\overset\rightarrow{\#1}',1],
-        bra: ['\\left\\langle \#1\\right|',1],
-        ket: ['\\left| \#1\\right\\rangle',1],
-        braket: ['\\langle \#1 \\mid \#2 \\rangle',2],
-        avg: ['\\left< \#1 \\right>',1],
-        slashed: ['\\cancel{\#1}',1],
-        bold: ['\\boldsymbol{\#1}',1],
-        sech: ['\\operatorname{sech}{\#1}',1],
-        csch: ['\\operatorname{csch}{\#1}',1]
-      }
-    }
-  });
-  </script>
 <!-- MathJax -->
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
@@ -132,7 +82,7 @@ MathJax.Hub.Config({
 
 </head>
 
-<body id="page">
+<body id="post">
 
 <div class="navigation-wrapper">
 	<nav role="navigation" id="site-nav" class="animated drop">
@@ -179,21 +129,122 @@ MathJax.Hub.Config({
 
 
 <div id="main" role="main">
-  <article class="entry">
+  <article class="hentry">
     
     <div class="entry-wrapper">
       <header class="entry-header">
-        <h1 class="entry-title">Tag Index</h1>
-      </header>
-      <div class="entry-content">
+        <ul class="entry-tags">
+          
+        </ul>
         
-<ul class="tag-box inline">
-  
+          <h1 class="entry-title">09.Escape Noise</h1>
+        
+      </header>
+      <footer class="entry-meta">
+        
+        
+        <span class="author vcard">By <span class="fn"></span></span>
+        <span class="entry-date date published"><time datetime="2016-07-29T00:00:00-06:00"><i class="fa fa-calendar-o"></i> July 29, 2016</time></span>
+        
+        
+        
+        
+        
+      </footer>
+      <div class="entry-content">
+        <h1 id="escape-noise">Escape noise</h1>
+
+<p>Two ways to introduce noise in formal spiking neuron models:</p>
+
+<ul>
+  <li>noisy threshold(escape model or hazard model)</li>
+  <li>noisy integration(stochastic spike arrival model or diffusion model)</li>
 </ul>
 
+<p>In the escape model,
+the neuron may fire when $u&lt;\vartheta$
+the neuron may stay quiescent when $u&gt;\vartheta$</p>
 
+<h2 id="escape-rate-and-hazard-function">Escape rate and hazard function</h2>
+
+<p>In the escape model,
+spikes can occur at any time with a probability density,</p>
+
+<script type="math/tex; mode=display">\rho=f(u-\vartheta)</script>
+
+<p>Since $u$ is a function of time,$\rho$ is also time dependent,</p>
+
+<script type="math/tex; mode=display">\rho_{I}(t|\hat{t})=f[u(t|\hat{t})-\vartheta]</script>
+
+<p>Required condition of function $f$,
+when $u\rightarrow-\infty$, $f\rightarrow0$</p>
+
+<h3 id="example">Example</h3>
+
+<script type="math/tex; mode=display">% <![CDATA[
+f(u-\vartheta)=\begin{cases}
+0 & for &u<\vartheta\\
+\Delta^{-1}& for &u\ge\vartheta
+\end{cases} %]]></script>
+
+<script type="math/tex; mode=display">f(u-\vartheta)=\frac{1}{\tau_0}</script>
+
+<script type="math/tex; mode=display">% <![CDATA[
+f(u-\vartheta)=\beta[u-\vartheta]_{+}=\big\{\begin{array}{lcc}
+0 &for&u<\vartheta\\
+\beta(u-\vartheta)&for&u\ge\vartheta
+\end{array} %]]></script>
+
+<script type="math/tex; mode=display">f(u-\vartheta)=\frac{1}{2\Delta}[1+erf(\frac{u-\vartheta}{\sqrt{2}\sigma})]</script>
+
+<script type="math/tex; mode=display">erf(x)=\frac{2}{\sqrt{\pi}}\int_{0}^{x}\exp(-y^2)dy</script>
+
+<h2 id="interval-distribution-and-mean-fire-rate">Interval distribution and mean fire rate</h2>
+
+<p>the expect value of interval distribution = $\frac{1}{mean\space fire\space rate}$ = mean period</p>
+
+<p>use $\rho$ we can get interval distribution,</p>
+
+<script type="math/tex; mode=display">P_{I}(t|\hat{t})=\rho\space  \exp[-\int_{\hat{t}}^{t}\rho dt]</script>
+
+<script type="math/tex; mode=display">\rho=f[u(t|\hat{t})-\vartheta]</script>
+
+<p>use  $SRM_{0}$,</p>
+
+<script type="math/tex; mode=display">u(t|\hat{t})=\eta(t-\hat{t})+h(t)</script>
+
+<script type="math/tex; mode=display">h(t)=\int_{0}^{\infty}\kappa(s)I(t-s)ds</script>
+
+<p>use non-leaky integrate-and-fire,</p>
+
+<script type="math/tex; mode=display">u(t|\hat{t})=u_r+\frac{1}{C}\int_{\hat{t}}^{t}I(t')dt'</script>
+
+<p>use leaky integrate-and-fire,</p>
+
+<script type="math/tex; mode=display">u(t|\hat{t})=RI_0[1-e^{(-t-\hat{t})/\tau_m}]</script>
+
+<p>use $SRM_0$ with periodic input,we get periodic response,</p>
+
+<script type="math/tex; mode=display">h(t)=h_0+h_1cos(\Omega t+\varphi_1)</script>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\eta(s)=\begin{cases}
+-\infty & for & s<\Delta^{abs}\\
+-\eta_0 \exp{\big(-\frac{s-\Delta^{abs}}{\tau}\big)} & for & s>\Delta^{abs}
+\end{cases} %]]></script>
+
+
+        
       </div><!-- /.entry-content -->
     </div><!-- /.entry-wrapper -->
+    <nav class="pagination" role="navigation">
+      
+        <a href="http://localhost:4000/spiking-neuron-models/14.slow-noise/" class="btn" title="14.Noise in Refractory Kernel and Diffusive Noise">Previous</a>
+      
+      
+        <a href="http://localhost:4000/spiking-neuron-models/15.Diffusive_Noise_and_The_subthreshold_Regime/" class="btn" title="15.Diffusive Noise and The Subthreshold Regime">Next</a>
+      
+    </nav><!-- /.pagination -->
   </article>
 </div><!-- /#main -->
 

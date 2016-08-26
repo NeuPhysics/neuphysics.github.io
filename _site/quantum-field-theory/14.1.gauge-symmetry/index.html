@@ -5,16 +5,20 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Tag Index &#8211; NEUTRINO</title>
-<meta name="description" content="An archive of posts sorted by tag.">
+<title>14.1.Gauge Symmetries and Lagrangian &#8211; NEUTRINO</title>
+<meta name="description" content="Conserved Quantities
 
+">
+<meta name="keywords" content="">
 
 
 <!-- Twitter Cards -->
-<meta name="twitter:title" content="Tag Index">
-<meta name="twitter:description" content="An archive of posts sorted by tag.">
+<meta name="twitter:title" content="14.1.Gauge Symmetries and Lagrangian">
+<meta name="twitter:description" content="Conserved Quantities
+
+">
 <meta name="twitter:site" content="@emptymalei">
-<meta name="twitter:creator" content="@emptymalei">
+
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://localhost:4000/images/logo.png">
@@ -22,16 +26,18 @@
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Tag Index">
-<meta property="og:description" content="An archive of posts sorted by tag.">
-<meta property="og:url" content="http://localhost:4000/tags/">
+<meta property="og:title" content="14.1.Gauge Symmetries and Lagrangian">
+<meta property="og:description" content="Conserved Quantities
+
+">
+<meta property="og:url" content="http://localhost:4000/quantum-field-theory/14.1.gauge-symmetry/">
 <meta property="og:site_name" content="NEUTRINO">
 
 
 <meta name="msvalidate.01" content="599851A4C43BFECAAB71CE962680AB75">
 
 
-<link rel="canonical" href="http://localhost:4000/tags/">
+<link rel="canonical" href="http://localhost:4000/quantum-field-theory/14.1.gauge-symmetry/">
 <link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="NEUTRINO Feed">
 
 <!-- https://t.co/dKP3o1e -->
@@ -132,7 +138,7 @@ MathJax.Hub.Config({
 
 </head>
 
-<body id="page">
+<body id="post">
 
 <div class="navigation-wrapper">
 	<nav role="navigation" id="site-nav" class="animated drop">
@@ -179,21 +185,94 @@ MathJax.Hub.Config({
 
 
 <div id="main" role="main">
-  <article class="entry">
+  <article class="hentry">
     
     <div class="entry-wrapper">
       <header class="entry-header">
-        <h1 class="entry-title">Tag Index</h1>
-      </header>
-      <div class="entry-content">
+        <ul class="entry-tags">
+          
+        </ul>
         
-<ul class="tag-box inline">
-  
-</ul>
+          <h1 class="entry-title">14.1.Gauge Symmetries and Lagrangian</h1>
+        
+      </header>
+      <footer class="entry-meta">
+        
+        
+          <img src="http://localhost:4000/images/authors/octomiao.jpg" class="bio-photo" alt="OctoMiao bio photo"></a>
+        
+        <span class="author vcard">By <span class="fn">OctoMiao</span></span>
+        <span class="entry-date date published"><time datetime="2016-08-25T00:00:00-06:00"><i class="fa fa-calendar-o"></i> August 25, 2016</time></span>
+        
+        
+        <span class="social-share-twitter">
+          <a href="https://github.com/emptymalei" title="Author's Github"><i class="fa fa-github-square"></i> Author's GitHub</a>
+        </span>
+        
+        
+        
+        
+      </footer>
+      <div class="entry-content">
+        <h2 id="conserved-quantities">Conserved Quantities</h2>
+
+<p><strong>Conserved quantities are conserved locally in space, not just globally.</strong></p>
+
+<p>In classical mechanics</p>
+
+<ol>
+  <li>Lagrangian is
+\begin{equation}
+L = T-V.
+\end{equation}</li>
+  <li>
+    <p>Lagrange’s equation</p>
+
+    <p>\begin{equation}
+\frac{d}{dt}\left(  \frac{\partial L}{\partial \dot q_i} \right) - \frac{\partial L}{\partial q_i} = 0,
+\end{equation}</p>
+
+    <p>where $q_i$ are the generalized coordinates and $\dot q_i \equiv \frac{d q_i}{dt}$.</p>
+  </li>
+</ol>
+
+<p>To generalize to quantum fields, we generalize the generalized coordinates to fields, so that descretized coordinates $q_i$ becomes fields $\phi(x,t)$.</p>
+
+<ol>
+  <li>Lagrangian density is
+ \begin{equation}
+ \mathcal L (\phi,\partial \phi/\partial x_\mu, x_\mu).
+ \end{equation}</li>
+  <li>Lagrangian is
+ \begin{equation}
+ L = \int \mathcal L d^3 x.
+ \end{equation}</li>
+  <li>The equation of dynamics is Euler-Lagrangian equation
+ \begin{equation}
+ \frac{\partial }{\partial x_\mu} \left( \frac{ \partial \mathcal L }{ \partial ( \phi_{,\mu} ) } \right)  - \frac{\partial \mathcal L}{\partial \phi} = 0,
+ \end{equation}
+ where we denoted $\partial \phi/\partial x_\mu$ as $\phi_{,\mu}$.</li>
+</ol>
+
+<p><strong>By convention, Lagrangian density is usually called Lagrangian in QFT.</strong></p>
+
+<ol>
+  <li>Klein-Gordon equation $(\Box^2 + m^2)\phi = 0$: Lagrangian is $\mathcal L = \frac{1}{2} \partial_\mu \phi \partial^\mu \phi - \frac{1}{2} m^2 \phi^2$.</li>
+  <li>Dirac equation: Lagrangian is $\mathcal L = i \bar \psi \gamma_\mu \partial^\mu \psi - m \bar \psi \psi$.</li>
+  <li>Maxwell equation $\partial_\mu F^{\mu\nu} = j^\nu$ ($F^{\mu\nu} = \partial^\mu A^\nu - \partial^\nu A^\mu$): Lagrangian is $\mathcal L = - \frac{1}{4} F_{\mu\nu} F^{\mu\nu} - j^\mu A_\mu $.</li>
+  <li>Massive photons $(\Box^2 + m^2)A^\mu= j^\mu$: Lagrangian is $\mathcal L = - \frac{1}{4} F_{\mu\nu} F^{\mu\nu} - j^\mu A_\mu + \frac{1}{2}m^2 A_\mu A^\mu$.</li>
+</ol>
+
+<p><strong>One should connect Feynmann rules with Lagrangians.</strong></p>
 
 
+        
       </div><!-- /.entry-content -->
     </div><!-- /.entry-wrapper -->
+    <nav class="pagination" role="navigation">
+      
+      
+    </nav><!-- /.pagination -->
   </article>
 </div><!-- /#main -->
 

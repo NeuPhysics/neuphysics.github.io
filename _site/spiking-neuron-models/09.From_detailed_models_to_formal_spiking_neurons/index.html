@@ -5,16 +5,16 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Reactor Neutrino Experiments &#8211; NEUTRINO</title>
-<meta name="description" content="Slides
+<title>09.Reduction of the Hodgkin-Huxley model type II &#8211; NEUTRINO</title>
+<meta name="description" content="Reduction of the Hodgkin-Huxley model type II
 
 ">
 <meta name="keywords" content="">
 
 
 <!-- Twitter Cards -->
-<meta name="twitter:title" content="Reactor Neutrino Experiments">
-<meta name="twitter:description" content="Slides
+<meta name="twitter:title" content="09.Reduction of the Hodgkin-Huxley model type II">
+<meta name="twitter:description" content="Reduction of the Hodgkin-Huxley model type II
 
 ">
 <meta name="twitter:site" content="@emptymalei">
@@ -26,18 +26,18 @@
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Reactor Neutrino Experiments">
-<meta property="og:description" content="Slides
+<meta property="og:title" content="09.Reduction of the Hodgkin-Huxley model type II">
+<meta property="og:description" content="Reduction of the Hodgkin-Huxley model type II
 
 ">
-<meta property="og:url" content="http://localhost:4000/neutrino/neutrino-reactor-experiments/">
+<meta property="og:url" content="http://localhost:4000/spiking-neuron-models/09.From_detailed_models_to_formal_spiking_neurons/">
 <meta property="og:site_name" content="NEUTRINO">
 
 
 <meta name="msvalidate.01" content="599851A4C43BFECAAB71CE962680AB75">
 
 
-<link rel="canonical" href="http://localhost:4000/neutrino/neutrino-reactor-experiments/">
+<link rel="canonical" href="http://localhost:4000/spiking-neuron-models/09.From_detailed_models_to_formal_spiking_neurons/">
 <link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="NEUTRINO Feed">
 
 <!-- https://t.co/dKP3o1e -->
@@ -62,62 +62,6 @@
 <script src="http://localhost:4000/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
 
 
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({ TeX: { extensions: ["color.js","cancel.js", "AMSmath.js", "AMSsymbols.js"] }});
-  </script>
-  <script type="text/x-mathjax-config">
-  MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {
-    MathJax.Hub.Insert(MathJax.InputJax.TeX.Definitions.macros,{
-      cancel: ["Extension","cancel"]
-      });
-   });
-   </script>
-  <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-      tex2jax: {
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-      }
-    });
-</script>
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Queue(function() {
-        var all = MathJax.Hub.getAllJax(), i;
-        for(i=0; i < all.length; i += 1) {
-            all[i].SourceElement().parentNode.className += ' has-jax';
-        }
-    });
-</script>
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      processEscapes: true
-    }
-  });
-</script>
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
-});
-</script>
-  <script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    TeX: {
-      Macros: {
-        overlr: ['\\overset\\leftrightarrow{\#1}',1],
-        overl: ['\\overset\leftarrow{\#1}',1],
-        overr: ['\\overset\rightarrow{\#1}',1],
-        bra: ['\\left\\langle \#1\\right|',1],
-        ket: ['\\left| \#1\\right\\rangle',1],
-        braket: ['\\langle \#1 \\mid \#2 \\rangle',2],
-        avg: ['\\left< \#1 \\right>',1],
-        slashed: ['\\cancel{\#1}',1],
-        bold: ['\\boldsymbol{\#1}',1],
-        sech: ['\\operatorname{sech}{\#1}',1],
-        csch: ['\\operatorname{csch}{\#1}',1]
-      }
-    }
-  });
-  </script>
 <!-- MathJax -->
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
@@ -193,61 +137,191 @@ MathJax.Hub.Config({
           
         </ul>
         
-          <h1 class="entry-title">Reactor Neutrino Experiments</h1>
+          <h1 class="entry-title">09.Reduction of the Hodgkin-Huxley model type II</h1>
         
       </header>
       <footer class="entry-meta">
         
         
-          <img src="http://localhost:4000/images/authors/octomiao.jpg" class="bio-photo" alt="OctoMiao bio photo"></a>
+        <span class="author vcard">By <span class="fn"></span></span>
+        <span class="entry-date date published"><time datetime="2016-06-25T00:00:00-06:00"><i class="fa fa-calendar-o"></i> June 25, 2016</time></span>
         
-        <span class="author vcard">By <span class="fn">OctoMiao</span></span>
-        <span class="entry-date date published"><time datetime="2015-10-12T00:00:00-06:00"><i class="fa fa-calendar-o"></i> October 12, 2015</time></span>
-        <span class="entry-date date modified"><time datetime="2015-10-12"><i class="fa fa-pencil"></i> October 12, 2015</time></span>
-        <span class="entry-comments"><i class="fa fa-comment-o"></i> <a href="#disqus_thread">Comment</a></span>
+        
+        
         
         
       </footer>
       <div class="entry-content">
-        <h2 id="slides">Slides</h2>
+        <h1 id="reduction-of-the-hodgkin-huxley-model-type-ii">Reduction of the Hodgkin-Huxley model <code class="highlighter-rouge">type II</code></h1>
 
-<script async="" class="speakerdeck-embed" data-id="7ab50ddf48f3440499af61c6eb65eb87" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+<p>Another way of approximation, compare to two phase analysis</p>
 
+<h2 id="reduction">Reduction</h2>
 
-        
-          <div id="disqus_thread"></div><!-- /#disqus_thread -->
-          
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'neuphysics'; // required: replace example with your forum shortname
+<ul>
+  <li>Hodgkin and Huxley model:</li>
+</ul>
 
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
+<script type="math/tex; mode=display">C\frac{du}{dt}=-\Sigma I_{k}(t)+I(t)</script>
 
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function () {
-        var s = document.createElement('script'); s.async = true;
-        s.type = 'text/javascript';
-        s.src = 'https://' + disqus_shortname + '.disqus.com/count.js';
-        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-    }());
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+<script type="math/tex; mode=display">\Sigma I_{k}=g_{Na}m^{3}h(u-E_{Na})+g_{K}n^{4}(u-E_{k})+g_{L}(u-E_{L})</script>
+
+<script type="math/tex; mode=display">\dot{m}=\alpha_{m}(u)(1-m)-\beta_{m}(u)m</script>
+
+<script type="math/tex; mode=display">\dot{n}=\alpha_{n}(u)(1-n)-\beta_{n}(u)n</script>
+
+<script type="math/tex; mode=display">\dot{h}=\alpha_{h}(u)(1-h)-\beta_{h}(u)h</script>
+
+<ul>
+  <li>SRM:
+ $ u(t) = \eta(t-\hat t) + \int_0^{t-\hat{t}} \kappa(t-\hat t_i,s) I^{ext}(t-s) ds+u_{rest} $
+ we need to define $\eta(t-\hat{t})$, $\kappa(t-\hat{t})$, $\vartheta$</li>
+  <li>
+    <p>$\eta(t-\hat{t})$
+action potential is stereotyped when triggered the spike
+In Hodgkin-Huxley model, let:
+<script type="math/tex">I(t)=c\frac{q_0}{\Delta}\Theta(t)\Theta(\Delta-t)</script>
+we can get $u(t)$,  then use $u(t)$ to get $\eta(t-\hat{t})$
+<script type="math/tex">\eta(t-\hat(t))=[u(t)-u_{rest}]\Theta(t-\hat{t})</script></p>
+  </li>
+  <li>
+    <p>$\kappa(t-\hat{t})$
+ weak input current, slight perturbed
+Input: strong plus at $\hat{t}$, weak plus at $t$, $(t&gt;\hat{t})$
+ <script type="math/tex">\kappa(t-\hat{t},t)=\frac{1}{c}[u(t)-\eta(t-\hat{t})-u_{rest}]</script></p>
+  </li>
+  <li>$\vartheta$
+threshold for spike
+fixed
+use different value in different cases</li>
+</ul>
+
+<h2 id="scenarios">Scenarios</h2>
+
+<h3 id="time-dependent-input">time-dependent input</h3>
+
+<p>the metrics:
+<script type="math/tex">\Gamma=\frac{1}{C}\frac{N_{coinc}-{\langle}{N_{coinc}}{\rangle}}{\frac{1}{2}(N_{SRM}+N_{full})}</script>
+$\langle{N_{coinc}\rangle}=2\nu\Delta{N_{full}}$
+$C=1-2\nu\Delta$    <br />
+if Possison process:
+<script type="math/tex">\Gamma=0</script>
+if two model fit perfect:
+<script type="math/tex">\Gamma=1</script>
+if $\kappa$ does not depend  on last firing time, $\Gamma$ will be lower (lower accuracy)</p>
+
+<h3 id="constant-input">constant input</h3>
+
+<p>different $\vartheta$ make big differences</p>
+
+<h3 id="step-current-input">step current input</h3>
+
+<p>same three zones
+also show inhibitory rebound</p>
+
+<h3 id="spike-input">spike input</h3>
+
+<p>use $\epsilon $ to substitute external input:
+$u_i(t)=\eta(t-\hat{t_i})+\sum\limits_{j}w_{ij}\sum\limits_{f}\epsilon(t-\hat{t_i},t-t_{j}^{(f)})+u_{rest}$</p>
+
+<h1 id="reduction-of-a-cortical-neuron">Reduction of a cortical neuron</h1>
+
+<p><code class="highlighter-rouge"> type I</code>
+SRM can also be used as a quantitative model of cortical neurons.
+cortical neurons has continuous gain function</p>
+
+<h2 id="reduction-to-a-nonlinear-integrate-and-fire-model">Reduction to a nonlinear integrate-and-fire model</h2>
+
+<h3 id="reduction-1">Reduction</h3>
+
+<script type="math/tex; mode=display">C\frac{du}{dt}=-\sum{I_{k}(t)}+I(t)</script>
+
+<script type="math/tex; mode=display">\sum{I_{k}}=g_{Na}m^{3}h(u-E_{Na})+g_{K_{slow}}n^{4}_{slow}(u-E_{K})+g_{K_{fast}}n^2_{fast}(u-E_{K})</script>
+
+<h4 id="first-step">first step</h4>
+
+<p>define:</p>
+
+<ul>
+  <li>$\vartheta$</li>
+  <li>$\Delta_{abs}$</li>
+  <li>$u_{r}$</li>
+  <li>$m_{r}$</li>
+  <li>$h_{r}$</li>
+  <li>$n_{slow}$</li>
+  <li>$n_{fast}$</li>
+</ul>
+
+<p>we get multi integrate and fire model</p>
+
+<h4 id="second-step">second step</h4>
+
+<ul>
+  <li>fast variables:
+replace with steady state values (function of u)</li>
+  <li>slow variables:
+replace with constant
+$m \rightarrow m(u)$
+$n_{fast} \rightarrow n_{0,fast}$
+$n_{slow} \rightarrow n_{slow, average}$
+$h \rightarrow h_{average}$</li>
+</ul>
+
+<p>we get nonlinear integrate and fire model</p>
+
+<h3 id="scenarios-1">Scenarios</h3>
+
+<h4 id="constant-input-1">constant input</h4>
+
+<h4 id="fluctuating-input">fluctuating input</h4>
+
+<h2 id="reduction-to-srm">Reduction to SRM</h2>
+
+<h3 id="reduction-2">Reduction</h3>
+
+<p>aim:
+find $\eta$, $\kappa$, $\vartheta$</p>
+
+<h4 id="first-step-1">first step</h4>
+
+<p>reduce the model to and integrate-and-fire model with <strong><em>spike-time-dependent time constant</em></strong></p>
+
+<h4 id="second-step-1">second step</h4>
+
+<p>integrate the model, get $\eta$ and $\kappa$</p>
+
+<h4 id="third-step">third step</h4>
+
+<p>choose appropriate spike-time-dependent threshold $\vartheta$</p>
+
+<h3 id="scenarios-2">Scenarios</h3>
+
+<h4 id="constant-input-2">constant input</h4>
+
+<p>better with dynamic threshold</p>
+
+<h4 id="fluctuating-input-1">fluctuating input</h4>
+
+<p>the accuracy is more stable than nonlinear integrate-and-fire model</p>
+
+<h1 id="limitations">Limitations</h1>
+
+<ul>
+  <li>even $\Gamma$ of the multi-current integrate-and-fire model  is far below 1</li>
+  <li>time-dependent threshold of SRM is import to achieve generalize over a broad range of different inputs</li>
+  <li>time-dependent threshold seems to be more important for the random-input task than the nonlinearity of function $F(u)$</li>
+  <li>in the immediate neighborhood of the firing threshold, nonlinear integrate-and-fire model performs better than SRM</li>
+</ul>
 
         
       </div><!-- /.entry-content -->
     </div><!-- /.entry-wrapper -->
     <nav class="pagination" role="navigation">
       
-        <a href="http://localhost:4000/experiments/neutrino/" class="btn" title="Neutrino Reactor Experiments">Previous</a>
+        <a href="http://localhost:4000/spiking-neuron-models/08.Integrate-and-Fire-Models-1/" class="btn" title="08.Integrate and Fire Models Part 1">Previous</a>
       
       
-        <a href="http://localhost:4000/neutrino/cnb-detection-weiler/" class="btn" title="Resonant Absorption of Cosmic-Ray Neutrinos by CNB">Next</a>
+        <a href="http://localhost:4000/spiking-neuron-models/10.Noise_and_Renewal_Process/" class="btn" title="10.Information Coding">Next</a>
       
     </nav><!-- /.pagination -->
   </article>
