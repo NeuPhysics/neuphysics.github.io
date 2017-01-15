@@ -37,7 +37,8 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 collections:
   quantum-field-theory:
     output: true
-  
+  reading:
+    output: true
 
 
 # Octopress
