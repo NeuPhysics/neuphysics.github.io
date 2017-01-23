@@ -7,7 +7,7 @@
     <subtitle>Neutrino Physics Research</subtitle>
     <link href="http://localhost:4000/atom.xml" rel="self"/>
     <link href="http://localhost:4000/" rel="alternate" type="text/html"/>
-    <updated>2017-01-14T23:58:55-07:00</updated>
+    <updated>2017-01-20T13:47:57-07:00</updated>
     <id>http://localhost:4000/</id>
     <author>
 			<name>Lei Ma</name>
@@ -15,6 +15,23 @@
 			<email>leima@unm.edu</email>
 		</author>
 
+    
+    <entry>
+        <title>Neutrino Oscillations in Matter with Figures</title>
+        <link href="http://localhost:4000/neutrino/neutrino-oscillations-in-matter-with-figures/"/>
+        <updated>2017-01-20T00:00:00-07:00</updated>
+        <id>http://localhost:4000/neutrino/neutrino-oscillations-in-matter-with-figures</id>
+        <author>
+					<name>Lei Ma</name>
+					<uri>http://localhost:4000/</uri>
+					<email>leima@unm.edu</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;h2 id=&quot;hamiltonian&quot;&gt;Hamiltonian&lt;/h2&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>Speculations on Detection of Neutrino Sea</title>

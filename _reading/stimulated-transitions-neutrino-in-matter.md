@@ -18,6 +18,7 @@ ref:
   link: http://link.aps.org/doi/10.1103/PhysRevD.89.073022
 - title: "Stimulated transitions due to arbitrary, Fourier decomposed, perturbing Hamiltonians"
   link: http://arxiv.org/abs/1510.01998
+published: false
 ---
 
 Stimulated transitions in matter:

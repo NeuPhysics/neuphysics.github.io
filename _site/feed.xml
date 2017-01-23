@@ -4,13 +4,33 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2017-01-14T23:58:55-07:00</updated>
+<updated>2017-01-20T13:47:57-07:00</updated>
 <id>http://localhost:4000/</id>
 <author>
   <name>Lei Ma</name>
   <uri>http://localhost:4000/</uri>
   <email>leima@unm.edu</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Neutrino Oscillations in Matter with Figures]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/neutrino/neutrino-oscillations-in-matter-with-figures/" />
+  <id>http://localhost:4000/neutrino/neutrino-oscillations-in-matter-with-figures</id>
+  <updated>2017-01-20T00:00:00-00:00</updated>
+  <published>2017-01-20T00:00:00-07:00</published>
+  
+  <author>
+    <name>OctoMiao</name>
+    <uri>http://localhost:4000</uri>
+    
+  </author>
+  <content type="html">
+    &lt;h2 id=&quot;hamiltonian&quot;&gt;Hamiltonian&lt;/h2&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/neutrino/neutrino-oscillations-in-matter-with-figures/&quot;&gt;Neutrino Oscillations in Matter with Figures&lt;/a&gt; was originally published by Lei Ma at &lt;a href=&quot;http://localhost:4000&quot;&gt;NEUTRINO&lt;/a&gt; on January 20, 2017.&lt;/p&gt;
+  </content>
+</entry>
 
 
 <entry>
