@@ -1,10 +1,10 @@
 # Authors
 
-OctoMiao:
-    name: OctoMiao
-    display_name: OctoMiao
+Lei Ma:
+    name: "Lei Ma"
+    display_name: "Lei Ma"
     gravatar:
-    avatar: octomiao.jpg
+    avatar: /assets/authors/octomiao.jpg
     email:
     web: http://openmetric.org
     weibo: http://www.weibo.com/1510425807
@@ -15,7 +15,7 @@ OctoMiao:
     facebook:
     researchgate: https://www.researchgate.net/profile/Lei_MA
 
-billy_rick:
+Examples Author:
   name: Billy Rick
   web: http://thewhip.com
   email: billy@rick.com

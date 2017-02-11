@@ -1,0 +1,14 @@
+---
+layout: archive
+title: "Page Archive"
+permalink: /page-archive/
+author_profile: false
+sidebar:
+  title: "All Archives"
+  nav: sidebar-archives
+---
+
+{% include base_path %}
+{% for post in site.pages %}
+  {% include archive-single.html %}
+{% endfor %}
