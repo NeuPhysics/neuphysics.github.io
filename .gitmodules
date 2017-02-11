@@ -1,0 +1,3 @@
+[submodule "notes"]
+	path = _notes
+	url = https://github.com/NeuPhysics/notes
