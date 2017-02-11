@@ -1,25 +1,65 @@
+# main links
+main:
+  - title: Archive
+    url: /archive
+  - title: Reading
+    url: /reading
+  - title: Updates
+    url: http://neutrino.xyz/updates
+  - title: Neutrino Notes
+    url: http://docs.neutrino.xyz
+  - title: Random Notes
+    url: /notes
+  - title: Resources
+    url: /resources
+  - title: Neutrino JS
+    url: http://neutrino.xyz/neutrino-oscillation-js/
+  - title: "About"
+    url: /about/
+
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
+
 # Site navigation links
 
-- title: Home
-  url: /
 
-- title: About
-  url: /about/
+sidebar-archives:
+  - title: "Posts"
+    children:
+      - title: "by Categories"
+        url: /categories/
+      - title: "by Tags"
+        url: /tags/
+  - title: "Pages"
+    children:
+      - title: "All Pages"
+        url: /page-archive/
+  - title: "Collections"
+    children:
+      - title: "All Collections"
+        url: /collection-archive/
+  - title: "Reading"
+    children:
+      - title: "All Readings"
+        url: /reading
+  - title: "Random Notes"
+    children:
+      - title: "All Random Notes"
+        url: /notes
 
-- title: Articles
-  url: /articles
+sidebar-reading:
+  - title: "Reading"
+    children:
+      - title: "All Readings"
+        url: /reading
 
-- title: Reading
-  url: /reading
 
-- title: Resources
-  url: /resources
-
-- title: Neutrino Notes
-  url: http://docs.neutrino.xyz
-
-- title: Neutrino Map
-  url: http://neutrino.xyz/neutrino-map
-
-- title: Neutrino JS
-  url: http://neutrino.xyz/neutrino-oscillation-js/
+sidebar-notes:
+  - title: "Random Notes"
+    children:
+      - title: "All Random Notes"
+        url: /notes

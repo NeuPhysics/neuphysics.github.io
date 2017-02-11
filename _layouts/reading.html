@@ -1,15 +1,7 @@
-<!doctype html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
-<head>
-{% include head.html %}
-</head>
+---
+layout: single
+---
 
-<body id="page">
-
-{% include navigation.html %}
 
 <div id="main" role="main">
    <article class="entry">
@@ -17,7 +9,7 @@
      <div class="entry-wrapper">
        <div class="entry-content">
            <h1 style="text-align:center;margin-bottom:2em;"><a href="/reading">#Today I Read#</a></h1>
-           <h2 class="post-title" style="text-align:center;margin-bottom:2em;">{{ page.title }}</h2>
+           <!-- <h2 class="post-title" style="text-align:center;margin-bottom:2em;">{{ page.title }}</h2> -->
            <div style="border-top:1px solid #c0c0c0;border-bottom:1px solid #c0c0c0;margin-bottom:1em;padding-top:1em;padding-bottom:1em;">
              {% if page.author %}
              <div style="margin-left:1em;">
@@ -66,14 +58,7 @@
            </div>
            {{ content }}
 
-           <nav class="pagination" role="navigation">
-            {% if page.previous %}
-              <a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}">Previous</a>
-            {% endif %}
-            {% if page.next %}
-              <a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}">Next</a>
-            {% endif %}
-          </nav><!-- /.pagination -->
+
 
 
         {% if site.owner.disqus-shortname and page.comments or site.comments %}
@@ -82,24 +67,6 @@
         {% endif %}
       </div><!-- /.entry-content -->
     </div><!-- /.entry-wrapper -->
-    <nav class="pagination" role="navigation">
-      {% if page.previous %}
-        <a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}">Previous</a>
-      {% endif %}
-      {% if page.next %}
-        <a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}">Next</a>
-      {% endif %}
-    </nav><!-- /.pagination -->
+
   </article>
 </div><!-- /#main -->
-
-<div class="footer-wrapper">
-  <footer role="contentinfo" class="entry-wrapper">
-    {% include footer.html %}
-  </footer>
-</div><!-- /.footer-wrapper -->
-
-{% include scripts.html %}
-
-</body>
-</html>

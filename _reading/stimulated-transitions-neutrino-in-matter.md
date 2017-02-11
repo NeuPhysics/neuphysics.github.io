@@ -5,20 +5,23 @@ date: 2017-01-13
 modified: 2017-01-13 #2014-08-27T11:57:41-04:00
 author: Lei Ma
 comments: true
+sidebar:
+  title: "All Readings"
+  nav: sidebar-reading
 categories:
-- matter
+  - matter
 tags:
-- stimulated transitions
-- matter effect
+  - stimulated transitions
+  - matter effect
 summary: Stimulated transitions of neutrinos in matter
 ref:
-- title: "Stimulated neutrino transformation with sinusoidal density profiles"
-  link: http://scitation.aip.org/content/aip/proceeding/aipcp/10.1063/1.4826746
-- title: Stimulated neutrino transformation through turbulence
-  link: http://link.aps.org/doi/10.1103/PhysRevD.89.073022
-- title: "Stimulated transitions due to arbitrary, Fourier decomposed, perturbing Hamiltonians"
-  link: http://arxiv.org/abs/1510.01998
-published: false
+  - title: "Stimulated neutrino transformation with sinusoidal density profiles"
+    link: http://scitation.aip.org/content/aip/proceeding/aipcp/10.1063/1.4826746
+  - title: Stimulated neutrino transformation through turbulence
+    link: http://link.aps.org/doi/10.1103/PhysRevD.89.073022
+  - title: "Stimulated transitions due to arbitrary, Fourier decomposed, perturbing Hamiltonians"
+    link: http://arxiv.org/abs/1510.01998
+published: true
 ---
 
 Stimulated transitions in matter:

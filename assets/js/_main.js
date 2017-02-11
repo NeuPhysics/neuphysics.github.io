@@ -1,41 +1,50 @@
-/*! Plugin options and other jQuery stuff */
+/* ==========================================================================
+   jQuery plugin settings and other scripts
+   ========================================================================== */
 
-// Responsive Nav
-var navigation = responsiveNav("#site-nav", { // Selector: The ID of the wrapper
-  animate: true, // Boolean: Use CSS3 transitions, true or false
-  transition: 200, // Integer: Speed of the transition, in milliseconds
-  label: "<i class='fa fa-bars'></i> Menu", // String: Label for the navigation toggle
-  insert: "before", // String: Insert the toggle before or after the navigation
-  customToggle: "", // Selector: Specify the ID of a custom toggle
-  openPos: "relative", // String: Position of the opened nav, relative or static
-  jsClass: "js", // String: 'JS enabled' class which is added to <html> el
-  init: function(){}, // Function: Init callback
-  open: function(){}, // Function: Open callback
-  close: function(){} // Function: Close callback
-});
+$(document).ready(function(){
 
-$('html').click(function() {
-  //Hide the menus if visible
-  if ($(navigation.wrapper).hasClass('opened')) {
-  	navigation.toggle();
-  }
-});
+  // Sticky footer
+  var bumpIt = function() {
+      $('body').css('margin-bottom', $('.page__footer').outerHeight(true));
+    },
+    didResize = false;
 
-$('#site-nav').click(function(event){
-    event.stopPropagation();
-});
+  bumpIt();
 
-// FitVids options
-$(function() {
-	$("article").fitVids();
-});
+  $(window).resize(function() {
+    didResize = true;
+  });
+  setInterval(function() {
+    if(didResize) {
+      didResize = false;
+      bumpIt();
+    }
+  }, 250);
 
-// Add lightbox class to all image links
-$("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");
+  // FitVids init
+  $("#main").fitVids();
 
-// Magnific-Popup options
-$(document).ready(function() {
-  $('.image-popup').magnificPopup({
+  // Follow menu drop down
+  $(".author__urls-wrapper button").on("click", function() {
+    $(".author__urls").fadeToggle("fast", function() {});
+    $(".author__urls-wrapper button").toggleClass("open");
+  });
+
+  // init smooth scroll
+  $("a").smoothScroll({offset: -20});
+
+  // add lightbox class to all image links
+  $("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");
+
+  // Magnific-Popup options
+  $(".image-popup").magnificPopup({
+    // disableOn: function() {
+    //   if( $(window).width() < 500 ) {
+    //     return false;
+    //   }
+    //   return true;
+    // },
     type: 'image',
     tLoading: 'Loading image #%curr%...',
     gallery: {
@@ -46,9 +55,18 @@ $(document).ready(function() {
     image: {
       tError: '<a href="%url%">Image #%curr%</a> could not be loaded.',
     },
-    removalDelay: 300, // Delay in milliseconds before popup is removed
-    // Class that is added to body when popup is open. 
+    removalDelay: 500, // Delay in milliseconds before popup is removed
+    // Class that is added to body when popup is open.
     // make it unique to apply your CSS animations just to this exact popup
-    mainClass: 'mfp-fade'
+    mainClass: 'mfp-zoom-in',
+    callbacks: {
+      beforeOpen: function() {
+        // just a hack that adds mfp-anim class to markup
+        this.st.image.markup = this.st.image.markup.replace('mfp-figure', 'mfp-figure mfp-with-anim');
+      }
+    },
+    closeOnContentClick: true,
+    midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
   });
+
 });

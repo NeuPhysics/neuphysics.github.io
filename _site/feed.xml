@@ -1,32 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-<title type="text">NEUTRINO</title>
-<generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
-<link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2017-01-26T18:38:53-07:00</updated>
-<id>http://localhost:4000/</id>
-<author>
-  <name>Lei Ma</name>
-  <uri>http://localhost:4000/</uri>
-  <email>leima@unm.edu</email>
-</author>
-
-
-<entry>
-  <title type="html"><![CDATA[Stimulated Neutrino Flavor Conversions and Rabi Oscillations]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/neutrino/stimulated-neutrino-flavor-conversions-and-rabi-oscillations/" />
-  <id>http://localhost:4000/neutrino/stimulated-neutrino-flavor-conversions-and-rabi-oscillations</id>
-  <updated>2017-01-23T00:00:00-00:00</updated>
-  <published>2017-01-23T00:00:00-07:00</published>
-  
-  <author>
-    <name>OctoMiao</name>
-    <uri>http://localhost:4000</uri>
-    
-  </author>
-  <content type="html">
-    &lt;p&gt;I’ll talk about a very interesting phenomenon in neutrino oscillations, the stimulated neutrino flavor conversions, which might happen when neutrinos travel through dense medium, and how can we understand such behavior using Rabi oscillations.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-02-10T19:33:15-07:00</updated><id>http://localhost:4000//</id><title type="html">Neutrino</title><subtitle>Neutrino Physics Research</subtitle><author><name>NeuPhysics</name></author><entry><title type="html">Stimulated Neutrino Flavor Conversions and Rabi Oscillations</title><link href="http://localhost:4000/neutrino/stimulated-neutrino-flavor-conversions-and-rabi-oscillations/" rel="alternate" type="text/html" title="Stimulated Neutrino Flavor Conversions and Rabi Oscillations" /><published>2017-01-23T00:00:00-07:00</published><updated>2017-01-23T00:00:00-07:00</updated><id>http://localhost:4000/neutrino/stimulated-neutrino-flavor-conversions-and-rabi-oscillations</id><content type="html" xml:base="http://localhost:4000/neutrino/stimulated-neutrino-flavor-conversions-and-rabi-oscillations/">&lt;p&gt;I’ll talk about a very interesting phenomenon in neutrino oscillations, the stimulated neutrino flavor conversions, which might happen when neutrinos travel through dense medium, and how can we understand such behavior using Rabi oscillations.&lt;/p&gt;
 
 &lt;h2 id=&quot;background&quot;&gt;Background&lt;/h2&gt;
 
@@ -77,162 +49,17 @@ Here is an example reproduced for simplicity. In this example, the matter potent
 
 &lt;h2 id=&quot;stimulated-neutrino-flavor-conversions&quot;&gt;Stimulated Neutrino Flavor Conversions&lt;/h2&gt;
 
-&lt;p&gt;We are basically talking about a stimulation of two level system using periodic potential. Another kind of simple oscillations that can have resonance behavior, that I can think of, is Rabi oscillation. It turns out our neutrino oscillations are not so different from Rabi oscillations.&lt;/p&gt;
+&lt;p&gt;We are basically talking about a stimulation of two level system using periodic potential. Another kind of simple oscillations that can have resonance behavior, that I can think of, is Rabi oscillation. It turns out our neutrino oscillations are not so different from Rabi oscillations.&lt;/p&gt;</content><author><name>OctoMiao</name></author><summary type="html">I’ll talk about a very interesting phenomenon in neutrino oscillations, the stimulated neutrino flavor conversions, which might happen when neutrinos travel through dense medium, and how can we understand such behavior using Rabi oscillations.</summary></entry><entry><title type="html">Neutrino Oscillations in Matter with Figures</title><link href="http://localhost:4000/neutrino/neutrino-oscillations-in-matter-with-figures/" rel="alternate" type="text/html" title="Neutrino Oscillations in Matter with Figures" /><published>2017-01-20T00:00:00-07:00</published><updated>2017-01-20T00:00:00-07:00</updated><id>http://localhost:4000/neutrino/neutrino-oscillations-in-matter-with-figures</id><content type="html" xml:base="http://localhost:4000/neutrino/neutrino-oscillations-in-matter-with-figures/">&lt;h2 id=&quot;hamiltonian&quot;&gt;Hamiltonian&lt;/h2&gt;</content><author><name>OctoMiao</name></author><summary type="html">Hamiltonian</summary></entry><entry><title type="html">Speculations on Detection of Neutrino Sea</title><link href="http://localhost:4000/neutrino/cnb-detection-stodolsky/" rel="alternate" type="text/html" title="Speculations on Detection of Neutrino Sea" /><published>2015-10-27T00:00:00-06:00</published><updated>2015-10-27T00:00:00-06:00</updated><id>http://localhost:4000/neutrino/cnb-detection-stodolsky</id><content type="html" xml:base="http://localhost:4000/neutrino/cnb-detection-stodolsky/">&lt;h2 id=&quot;slides&quot;&gt;Slides&lt;/h2&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/neutrino/stimulated-neutrino-flavor-conversions-and-rabi-oscillations/&quot;&gt;Stimulated Neutrino Flavor Conversions and Rabi Oscillations&lt;/a&gt; was originally published by Lei Ma at &lt;a href=&quot;http://localhost:4000&quot;&gt;NEUTRINO&lt;/a&gt; on January 23, 2017.&lt;/p&gt;
-  </content>
-</entry>
+&lt;script async=&quot;&quot; class=&quot;speakerdeck-embed&quot; data-id=&quot;144a7175defb4984bcb83fefece34212&quot; data-ratio=&quot;1.33333333333333&quot; src=&quot;//speakerdeck.com/assets/embed.js&quot;&gt;&lt;/script&gt;</content><author><name>OctoMiao</name></author><summary type="html">Slides</summary></entry><entry><title type="html">Resonant Absorption of Cosmic-Ray Neutrinos by CNB</title><link href="http://localhost:4000/neutrino/cnb-detection-weiler/" rel="alternate" type="text/html" title="Resonant Absorption of Cosmic-Ray Neutrinos by CNB" /><published>2015-10-14T00:00:00-06:00</published><updated>2015-10-14T00:00:00-06:00</updated><id>http://localhost:4000/neutrino/cnb-detection-weiler</id><content type="html" xml:base="http://localhost:4000/neutrino/cnb-detection-weiler/">&lt;h2 id=&quot;slides&quot;&gt;Slides&lt;/h2&gt;
 
+&lt;script async=&quot;&quot; class=&quot;speakerdeck-embed&quot; data-id=&quot;0700556faafe436485489faf0f798f68&quot; data-ratio=&quot;1.33333333333333&quot; src=&quot;//speakerdeck.com/assets/embed.js&quot;&gt;&lt;/script&gt;</content><author><name>OctoMiao</name></author><summary type="html">Slides</summary></entry><entry><title type="html">Reactor Neutrino Experiments</title><link href="http://localhost:4000/neutrino/neutrino-reactor-experiments/" rel="alternate" type="text/html" title="Reactor Neutrino Experiments" /><published>2015-10-12T00:00:00-06:00</published><updated>2015-10-12T00:00:00-06:00</updated><id>http://localhost:4000/neutrino/neutrino-reactor-experiments</id><content type="html" xml:base="http://localhost:4000/neutrino/neutrino-reactor-experiments/">&lt;h2 id=&quot;slides&quot;&gt;Slides&lt;/h2&gt;
 
-<entry>
-  <title type="html"><![CDATA[Neutrino Oscillations in Matter with Figures]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/neutrino/neutrino-oscillations-in-matter-with-figures/" />
-  <id>http://localhost:4000/neutrino/neutrino-oscillations-in-matter-with-figures</id>
-  <updated>2017-01-20T00:00:00-00:00</updated>
-  <published>2017-01-20T00:00:00-07:00</published>
-  
-  <author>
-    <name>OctoMiao</name>
-    <uri>http://localhost:4000</uri>
-    
-  </author>
-  <content type="html">
-    &lt;h2 id=&quot;hamiltonian&quot;&gt;Hamiltonian&lt;/h2&gt;
+&lt;script async=&quot;&quot; class=&quot;speakerdeck-embed&quot; data-id=&quot;7ab50ddf48f3440499af61c6eb65eb87&quot; data-ratio=&quot;1.33333333333333&quot; src=&quot;//speakerdeck.com/assets/embed.js&quot;&gt;&lt;/script&gt;</content><author><name>OctoMiao</name></author><summary type="html">Slides</summary></entry><entry><title type="html">Neutrino Reactor Experiments</title><link href="http://localhost:4000/experiments/neutrino/" rel="alternate" type="text/html" title="Neutrino Reactor Experiments" /><published>2015-09-28T00:00:00-06:00</published><updated>2015-09-28T00:00:00-06:00</updated><id>http://localhost:4000/experiments/neutrino</id><content type="html" xml:base="http://localhost:4000/experiments/neutrino/">&lt;h2 id=&quot;slides&quot;&gt;Slides&lt;/h2&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/neutrino/neutrino-oscillations-in-matter-with-figures/&quot;&gt;Neutrino Oscillations in Matter with Figures&lt;/a&gt; was originally published by Lei Ma at &lt;a href=&quot;http://localhost:4000&quot;&gt;NEUTRINO&lt;/a&gt; on January 20, 2017.&lt;/p&gt;
-  </content>
-</entry>
+&lt;script async=&quot;&quot; class=&quot;speakerdeck-embed&quot; data-id=&quot;7ab50ddf48f3440499af61c6eb65eb87&quot; data-ratio=&quot;1.33333333333333&quot; src=&quot;//speakerdeck.com/assets/embed.js&quot;&gt;&lt;/script&gt;</content><author><name>OctoMiao</name></author><summary type="html">Slides</summary></entry><entry><title type="html">Majorana Fermion</title><link href="http://localhost:4000/neutrino/majorana-fermions/" rel="alternate" type="text/html" title="Majorana Fermion" /><published>2015-09-14T00:00:00-06:00</published><updated>2015-09-14T00:00:00-06:00</updated><id>http://localhost:4000/neutrino/majorana-fermions</id><content type="html" xml:base="http://localhost:4000/neutrino/majorana-fermions/">&lt;h2 id=&quot;slides&quot;&gt;Slides&lt;/h2&gt;
 
-
-<entry>
-  <title type="html"><![CDATA[Speculations on Detection of Neutrino Sea]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/neutrino/cnb-detection-stodolsky/" />
-  <id>http://localhost:4000/neutrino/cnb-detection-stodolsky</id>
-  <updated>2015-10-27T00:00:00-00:00</updated>
-  <published>2015-10-27T00:00:00-06:00</published>
-  
-  <author>
-    <name>OctoMiao</name>
-    <uri>http://localhost:4000</uri>
-    
-  </author>
-  <content type="html">
-    &lt;h2 id=&quot;slides&quot;&gt;Slides&lt;/h2&gt;
-
-&lt;script async=&quot;&quot; class=&quot;speakerdeck-embed&quot; data-id=&quot;144a7175defb4984bcb83fefece34212&quot; data-ratio=&quot;1.33333333333333&quot; src=&quot;//speakerdeck.com/assets/embed.js&quot;&gt;&lt;/script&gt;
-
-
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/neutrino/cnb-detection-stodolsky/&quot;&gt;Speculations on Detection of Neutrino Sea&lt;/a&gt; was originally published by Lei Ma at &lt;a href=&quot;http://localhost:4000&quot;&gt;NEUTRINO&lt;/a&gt; on October 27, 2015.&lt;/p&gt;
-  </content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Resonant Absorption of Cosmic-Ray Neutrinos by CNB]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/neutrino/cnb-detection-weiler/" />
-  <id>http://localhost:4000/neutrino/cnb-detection-weiler</id>
-  <updated>2015-10-14T00:00:00-00:00</updated>
-  <published>2015-10-14T00:00:00-06:00</published>
-  
-  <author>
-    <name>OctoMiao</name>
-    <uri>http://localhost:4000</uri>
-    
-  </author>
-  <content type="html">
-    &lt;h2 id=&quot;slides&quot;&gt;Slides&lt;/h2&gt;
-
-&lt;script async=&quot;&quot; class=&quot;speakerdeck-embed&quot; data-id=&quot;0700556faafe436485489faf0f798f68&quot; data-ratio=&quot;1.33333333333333&quot; src=&quot;//speakerdeck.com/assets/embed.js&quot;&gt;&lt;/script&gt;
-
-
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/neutrino/cnb-detection-weiler/&quot;&gt;Resonant Absorption of Cosmic-Ray Neutrinos by CNB&lt;/a&gt; was originally published by Lei Ma at &lt;a href=&quot;http://localhost:4000&quot;&gt;NEUTRINO&lt;/a&gt; on October 14, 2015.&lt;/p&gt;
-  </content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Reactor Neutrino Experiments]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/neutrino/neutrino-reactor-experiments/" />
-  <id>http://localhost:4000/neutrino/neutrino-reactor-experiments</id>
-  <updated>2015-10-12T00:00:00-00:00</updated>
-  <published>2015-10-12T00:00:00-06:00</published>
-  
-  <author>
-    <name>OctoMiao</name>
-    <uri>http://localhost:4000</uri>
-    
-  </author>
-  <content type="html">
-    &lt;h2 id=&quot;slides&quot;&gt;Slides&lt;/h2&gt;
-
-&lt;script async=&quot;&quot; class=&quot;speakerdeck-embed&quot; data-id=&quot;7ab50ddf48f3440499af61c6eb65eb87&quot; data-ratio=&quot;1.33333333333333&quot; src=&quot;//speakerdeck.com/assets/embed.js&quot;&gt;&lt;/script&gt;
-
-
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/neutrino/neutrino-reactor-experiments/&quot;&gt;Reactor Neutrino Experiments&lt;/a&gt; was originally published by Lei Ma at &lt;a href=&quot;http://localhost:4000&quot;&gt;NEUTRINO&lt;/a&gt; on October 12, 2015.&lt;/p&gt;
-  </content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Neutrino Reactor Experiments]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/experiments/neutrino/" />
-  <id>http://localhost:4000/experiments/neutrino</id>
-  <updated>2015-09-28T00:00:00-00:00</updated>
-  <published>2015-09-28T00:00:00-06:00</published>
-  
-  <author>
-    <name>OctoMiao</name>
-    <uri>http://localhost:4000</uri>
-    
-  </author>
-  <content type="html">
-    &lt;h2 id=&quot;slides&quot;&gt;Slides&lt;/h2&gt;
-
-&lt;script async=&quot;&quot; class=&quot;speakerdeck-embed&quot; data-id=&quot;7ab50ddf48f3440499af61c6eb65eb87&quot; data-ratio=&quot;1.33333333333333&quot; src=&quot;//speakerdeck.com/assets/embed.js&quot;&gt;&lt;/script&gt;
-
-
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/experiments/neutrino/&quot;&gt;Neutrino Reactor Experiments&lt;/a&gt; was originally published by Lei Ma at &lt;a href=&quot;http://localhost:4000&quot;&gt;NEUTRINO&lt;/a&gt; on September 28, 2015.&lt;/p&gt;
-  </content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Majorana Fermion]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/neutrino/majorana-fermions/" />
-  <id>http://localhost:4000/neutrino/majorana-fermions</id>
-  <updated>2015-09-14T00:00:00-00:00</updated>
-  <published>2015-09-14T00:00:00-06:00</published>
-  
-  <author>
-    <name>OctoMiao</name>
-    <uri>http://localhost:4000</uri>
-    
-  </author>
-  <content type="html">
-    &lt;h2 id=&quot;slides&quot;&gt;Slides&lt;/h2&gt;
-
-&lt;script async=&quot;&quot; class=&quot;speakerdeck-embed&quot; data-id=&quot;80ad4f8f87a54c748d7084c43ef56840&quot; data-ratio=&quot;1.33333333333333&quot; src=&quot;//speakerdeck.com/assets/embed.js&quot;&gt;&lt;/script&gt;
-
-
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/neutrino/majorana-fermions/&quot;&gt;Majorana Fermion&lt;/a&gt; was originally published by Lei Ma at &lt;a href=&quot;http://localhost:4000&quot;&gt;NEUTRINO&lt;/a&gt; on September 14, 2015.&lt;/p&gt;
-  </content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Neutrino Oscillations in Matter]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/neutrino/neutrino-oscillations-in-matter/" />
-  <id>http://localhost:4000/neutrino/neutrino-oscillations-in-matter</id>
-  <updated>2015-08-31T00:00:00-00:00</updated>
-  <published>2015-08-31T00:00:00-06:00</published>
-  
-  <author>
-    <name>OctoMiao</name>
-    <uri>http://localhost:4000</uri>
-    
-  </author>
-  <content type="html">
-    &lt;h2 id=&quot;slides&quot;&gt;Slides&lt;/h2&gt;
+&lt;script async=&quot;&quot; class=&quot;speakerdeck-embed&quot; data-id=&quot;80ad4f8f87a54c748d7084c43ef56840&quot; data-ratio=&quot;1.33333333333333&quot; src=&quot;//speakerdeck.com/assets/embed.js&quot;&gt;&lt;/script&gt;</content><author><name>OctoMiao</name></author><summary type="html">Slides</summary></entry><entry><title type="html">Neutrino Oscillations in Matter</title><link href="http://localhost:4000/neutrino/neutrino-oscillations-in-matter/" rel="alternate" type="text/html" title="Neutrino Oscillations in Matter" /><published>2015-08-31T00:00:00-06:00</published><updated>2015-08-31T00:00:00-06:00</updated><id>http://localhost:4000/neutrino/neutrino-oscillations-in-matter</id><content type="html" xml:base="http://localhost:4000/neutrino/neutrino-oscillations-in-matter/">&lt;h2 id=&quot;slides&quot;&gt;Slides&lt;/h2&gt;
 
 &lt;script async=&quot;&quot; class=&quot;speakerdeck-embed&quot; data-id=&quot;7c6d7c9106824e93b76b9b12ab29b76b&quot; data-ratio=&quot;1.33333333333333&quot; src=&quot;//speakerdeck.com/assets/embed.js&quot;&gt;&lt;/script&gt;
 
@@ -240,10 +67,4 @@ Here is an example reproduced for simplicity. In this example, the matter potent
 
 &lt;h2 id=&quot;mathematical-nature-of-neutrino-oscillation&quot;&gt;Mathematical Nature of Neutrino Oscillation&lt;/h2&gt;
 
-&lt;h2 id=&quot;matter-effect&quot;&gt;Matter Effect&lt;/h2&gt;
-
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/neutrino/neutrino-oscillations-in-matter/&quot;&gt;Neutrino Oscillations in Matter&lt;/a&gt; was originally published by Lei Ma at &lt;a href=&quot;http://localhost:4000&quot;&gt;NEUTRINO&lt;/a&gt; on August 31, 2015.&lt;/p&gt;
-  </content>
-</entry>
-
-</feed>
+&lt;h2 id=&quot;matter-effect&quot;&gt;Matter Effect&lt;/h2&gt;</content><author><name>OctoMiao</name></author><summary type="html">Slides</summary></entry></feed>
