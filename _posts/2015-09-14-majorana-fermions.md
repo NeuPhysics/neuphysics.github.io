@@ -2,7 +2,7 @@
 title: "Majorana Fermion"
 date: 2015-09-14
 modified: 2015-09-14
-author: OctoMiao
+author: Lei Ma
 toc: true
 comments: true
 categories: neutrino

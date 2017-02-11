@@ -2,7 +2,7 @@
 title: "Neutrino Oscillations in Matter"
 date: 2015-08-31
 modified: 2015-08-31
-author: OctoMiao
+author: Lei Ma
 toc: true
 comments: true
 categories: neutrino

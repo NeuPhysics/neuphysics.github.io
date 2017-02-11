@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : "mmistakes"
+  username               :
 facebook:
   username               :
   app_id                 :
@@ -91,7 +91,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : neuphysics
   google_plus      :
   keybase          :
   instagram        :
@@ -107,6 +107,7 @@ author:
   weibo            :
   xing             :
   youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+  researchgate     : https://www.researchgate.net/profile/Lei_MA
 
 
 # Reading Files

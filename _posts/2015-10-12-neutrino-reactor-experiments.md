@@ -2,7 +2,7 @@
 title: "Reactor Neutrino Experiments"
 date: 2015-10-12
 modified: 2015-10-12
-author: OctoMiao
+author: Lei Ma
 toc: true
 comments: true
 categories: neutrino

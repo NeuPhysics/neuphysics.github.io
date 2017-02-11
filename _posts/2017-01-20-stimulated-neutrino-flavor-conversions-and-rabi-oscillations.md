@@ -2,12 +2,12 @@
 title: "Stimulated Neutrino Flavor Conversions and Rabi Oscillations"
 date: 2017-01-23
 modified: 2017-01-23
-author: OctoMiao
+author: Lei Ma
 toc: true
 comments: true
 categories: neutrino
 summary: Neutrino oscillations in matter is very different from oscillations in vacuum.
-published: true
+published: false
 ---
 
 I'll talk about a very interesting phenomenon in neutrino oscillations, the stimulated neutrino flavor conversions, which might happen when neutrinos travel through dense medium, and how can we understand such behavior using Rabi oscillations.

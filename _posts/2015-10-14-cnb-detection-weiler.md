@@ -2,7 +2,7 @@
 title: "Resonant Absorption of Cosmic-Ray Neutrinos by CNB"
 date: 2015-10-14
 modified: 2015-10-14
-author: OctoMiao
+author: Lei Ma
 toc: true
 comments: true
 categories: neutrino

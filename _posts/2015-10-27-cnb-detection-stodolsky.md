@@ -2,7 +2,7 @@
 title: "Speculations on Detection of Neutrino Sea"
 date: 2015-10-27
 modified: 2015-10-27
-author: OctoMiao
+author: Lei Ma
 toc: true
 comments: true
 categories: neutrino
