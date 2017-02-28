@@ -156,6 +156,69 @@ MathJax.Hub.Config({
 .sticky {
    position: relative !important;
 }
+/* Design Notes div with different styles */
+
+.notes--info, .notes--success, .notes--warning, .notes--error {
+    padding:20px;
+    margin:10px 0;
+}
+.notes--info:before, .notes--success:before, .notes--warning:before, .notes--error:before {
+    font-family:FontAwesome;
+    font-style:normal;
+    font-weight:400;
+    speak:none;
+    display:inline-block;
+    text-decoration:inherit;
+    width:1em;
+    margin-right:.2em;
+    text-align:center;
+    font-variant:normal;
+    text-transform:none;
+    line-height:1em;
+    margin-left:.2em;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale
+}
+.notes--info:before {
+    content:"\f05a";
+    padding-bottom: 1em;
+    opacity: 0.3;
+}
+.notes--success:before {
+    content:'\f00c';
+    padding-bottom: 1em;
+    opacity: 0.3;
+}
+.notes--warning:before {
+    content:'\f071';
+    padding-bottom: 1em;
+    opacity: 0.3;
+}
+.notes--error:before {
+    content:'\f057';
+    padding-bottom: 1em;
+    opacity: 0.3;
+}
+.notes--info {
+    /*color: #00529B;*/
+    /*background-color: #BDE5F8;*/
+    border: 2px solid #BDE5F8;
+}
+.notes--success {
+    /*color: #4F8A10;*/
+    /*background-color: #DFF2BF;*/
+    border: 2px solid #DFF2BF;
+}
+.notes--warning {
+    /*color: #9F6000;*/
+    /*background-color: #FEEFB3;*/
+    border: 2px solid #FEEFB3;
+}
+.notes--error {
+    /*color: #D8000C;*/
+    /*background-color: #FFBABA;*/
+    border: 2px solid #FFBABA;
+}
 </style>
 
 <!-- insert favicons. use http://realfavicongenerator.net/ -->
