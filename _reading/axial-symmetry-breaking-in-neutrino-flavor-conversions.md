@@ -138,6 +138,72 @@ Then we plug this result back into the equation of motion and find out a matrix 
 
 The spectrum $g$ doesn't depend on $\phi$. But the solution to frequency can depend on $\phi$.
 
+
+## About Equation 13
+
+In the beginning, it wasn't so clear how could it be true. 
+
+Mathematically, with $I$ defined, 
+
+$$
+I_n = I \langle u^n \rangle.
+$$
+
+In equation 12, 
+
+$$
+(I_1 - 1)^2 = I_0 I_2
+$$
+
+becomes
+
+$$
+(I \langle u \rangle -1 )^2 = I^2 \langle u^2 \rangle.
+$$
+
+Move them to the same side, we have
+
+$$
+\begin{align}
+(I \langle u \rangle -1 )^2 - (I \sqrt{\langle u^2 \rangle})^2 &= 0.\\
+(I \langle u \rangle -1  - I \sqrt{\langle u^2 \rangle})(I \langle u \rangle -1  + I \sqrt{\langle u^2 \rangle}) &= 0,
+\end{align}
+$$
+
+from which we solve $1/I$.
+
+$$
+\begin{align}
+\langle u \rangle - \sqrt{\langle u^2 \rangle} &= 1/I \\
+\langle u \rangle + \sqrt{\langle u^2 \rangle} &= 1/I .
+\end{align}
+$$
+
+
+From the meaning of $a,b,c,d$ we know that $c,d$ are associated with angle $\phi$ so they are related to the MAA solution. We also know that the solution $I_1=-1$ is the one related to $c,d$ which indicates that this is the MAA solution.
+
+The paper also says that 
+
+$$
+I_1 - 1 = \sqrt{I_0 I_2}
+$$
+
+is bimodal solution while
+
+$$
+I_1 - 1 = \sqrt{I_0 I_2}
+$$
+
+is the MZA solution.
+
+
+<div class="notes--warning" markdown="1">
+
+Not sure why.
+
+</div>
+
+
 ## Single Energy Model
 
 Energy spectrum is
