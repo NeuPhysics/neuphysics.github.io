@@ -154,4 +154,4 @@ The author solved system
 
 ## Matter Effect
 
-At large matter density, instability occurs at larger $\sim\lambda/\lvertq_j\rvert\sim \lambda$. Matter suppression of instability.
+At large matter density, instability occurs at larger $\sim\lambda/\lvert q_j\rvert\sim \lambda$. Matter suppression of instability.
