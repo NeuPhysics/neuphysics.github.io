@@ -61,3 +61,12 @@
     /*background-color: #FFBABA;*/
     border: 2px solid #FFBABA;
 }
+
+
+.trello--board div {
+
+}
+
+.trello-board-name .trello-list {
+   display: block;
+}
