@@ -8,6 +8,8 @@ main:
     url: http://neutrino.xyz/updates
   - title: Neutrino Notes
     url: http://docs.neutrino.xyz
+  - title: Computation
+    url: http://computational.neutrino.xyz
   - title: Random Notes
     url: /notes
   - title: Resources
