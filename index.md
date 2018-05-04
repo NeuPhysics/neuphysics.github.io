@@ -6,18 +6,22 @@ excerpt: "Neutrino Physics Explainer"
 search_omit: true
 ---
 
+As I have defended my dissertation, this group of websites has served its purpose. Read more [here](phd).
+{: .notes--warning}
 
-<div class="notice" markdown="1">
+
+<div class="notes--info" markdown="1">
 This is a website concentrating on neutrino oscillations. Why?
 
-> Neutrinos are amazing.
->
-> They oscillate, steal energy from stars, permeate through you all the time.
->
-> Scientists are spending huge amount of money on this tiny mysterious particle.
->
-> And I love it.
+Neutrinos are amazing.
+
+They oscillate, steal energy from stars, permeate through you all the time.
+
+Scientists are spending huge amount of money on this tiny mysterious particle.
+
+And I love it.
 </div>
+
 
 
 <div align="center" style="border-style:solid;">

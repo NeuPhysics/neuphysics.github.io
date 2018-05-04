@@ -69,6 +69,9 @@
 <loc>http://localhost:4000/papers2read/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/phd/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/portfolio/</loc>
 </url>
 <url>
@@ -88,5 +91,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/year-archive/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/google21cc044165c48e35.html</loc>
+<lastmod>2018-05-03T18:12:46-06:00</lastmod>
 </url>
 </urlset>

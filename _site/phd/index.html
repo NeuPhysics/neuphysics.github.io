@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Ph.D. - Neutrino</title>
+
+
+
+
+<meta name="description" content="I will miss you.">
+
+
+
+
+<meta property="og:locale" content="en">
+<meta property="og:site_name" content="Neutrino">
+<meta property="og:title" content="Ph.D.">
+
+
+  <link rel="canonical" href="http://localhost:4000/phd/">
+  <meta property="og:url" content="http://localhost:4000/phd/">
+
+
+
+  <meta property="og:description" content="I will miss you.">
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "NeuPhysics",
+      "url" : "http://localhost:4000",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Neutrino Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+    <!-- start custom head snippets -->
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({ TeX: { extensions: ["color.js","cancel.js", "AMSmath.js", "AMSsymbols.js"] }});
+  </script>
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {
+    MathJax.Hub.Insert(MathJax.InputJax.TeX.Definitions.macros,{
+      cancel: ["Extension","cancel"]
+      });
+   });
+   </script>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+</script>
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    TeX: {
+      Macros: {
+        overlr: ['\\overset\\leftrightarrow{\#1}',1],
+        overl: ['\\overset\leftarrow{\#1}',1],
+        overr: ['\\overset\rightarrow{\#1}',1],
+        bra: ['\\left\\langle \#1\\right|',1],
+        ket: ['\\left| \#1\\right\\rangle',1],
+        braket: ['\\langle \#1 \\mid \#2 \\rangle',2],
+        avg: ['\\left< \#1 \\right>',1],
+        slashed: ['\\cancel{\#1}',1],
+        bold: ['\\boldsymbol{\#1}',1],
+        sech: ['\\operatorname{sech}{\#1}',1],
+        csch: ['\\operatorname{csch}{\#1}',1]
+      }
+    }
+  });
+  </script>
+<!-- MathJax -->
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  messageStyle: "none"
+});
+</script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+<!-- Using Mathjax Causes Sticky Sidebar to Dispear in Minimal Mistakes Theme -->
+
+<style>
+.sticky {
+   position: relative !important;
+}
+/* Design Notes div with different styles */
+
+.notes--info, .notes--success, .notes--warning, .notes--error {
+    padding:20px;
+    margin:10px 0;
+}
+.notes--info:before, .notes--success:before, .notes--warning:before, .notes--error:before {
+    font-family:FontAwesome;
+    font-style:normal;
+    font-weight:400;
+    speak:none;
+    display:inline-block;
+    text-decoration:inherit;
+    width:1em;
+    margin-right:.2em;
+    text-align:center;
+    font-variant:normal;
+    text-transform:none;
+    line-height:1em;
+    margin-left:.2em;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale
+}
+.notes--info:before {
+    content:"\f05a";
+    padding-bottom: 1em;
+    opacity: 0.3;
+}
+.notes--success:before {
+    content:'\f00c';
+    padding-bottom: 1em;
+    opacity: 0.3;
+}
+.notes--warning:before {
+    content:'\f071';
+    padding-bottom: 1em;
+    opacity: 0.3;
+}
+.notes--error:before {
+    content:'\f057';
+    padding-bottom: 1em;
+    opacity: 0.3;
+}
+.notes--info {
+    /*color: #00529B;*/
+    /*background-color: #BDE5F8;*/
+    border: 2px solid #BDE5F8;
+}
+.notes--success {
+    /*color: #4F8A10;*/
+    /*background-color: #DFF2BF;*/
+    border: 2px solid #DFF2BF;
+}
+.notes--warning {
+    /*color: #9F6000;*/
+    /*background-color: #FEEFB3;*/
+    border: 2px solid #FEEFB3;
+}
+.notes--error {
+    /*color: #D8000C;*/
+    /*background-color: #FFBABA;*/
+    border: 2px solid #FFBABA;
+}
+</style>
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button><div class="navicon"></div></button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://localhost:4000/">Neutrino</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/archive">Archive</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/reading">Reading</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://neutrino.xyz/updates">Updates</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://docs.neutrino.xyz">Neutrino Notes</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://computational.neutrino.xyz">Computation</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/notes">Random Notes</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/resources">Resources</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://neutrino.xyz/neutrino-oscillation-js/">Neutrino JS</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/about/">About</a></li>
+          
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+<div id="main" role="main">
+  
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Ph.D.">
+    <meta itemprop="description" content="I will miss you.">
+    
+    <meta itemprop="dateModified" content="May 03, 2018">
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">Ph.D.
+</h1>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        <p style="font-size:150%;" class="text-center">I defended my dissertation!</p>
+
+<h2 id="the-phd-life">The Ph.D. Life</h2>
+
+<p>I wouldn’t consider it as the best life in this world but it’s pretty amazing.</p>
+
+<h2 id="visualizations">Visualizations</h2>
+
+<p>I have used NeuPhysics extensively. Here I am putting an end to it’s life. I mean the websites, the code, and the GitHub repositories will still be here, but I will not update anything in the near future.</p>
+
+<p>An overview of all the git repositories and commit history:</p>
+<div align="center">
+<img src="http://localhost:4000/assets/images/neuphysics-github.jpg" />
+</div>
+
+<p>Of course, my whole GitHub is for my research, most of the time anyway.</p>
+<div align="center">
+<img src="http://localhost:4000/assets/images/emptymalei-github.jpg" />
+</div>
+
+<p>I used a repository called <code class="highlighter-rouge">neutrino</code> as my public notes of the subject. Here is an visualization of this specific repo.</p>
+<iframe src="https://www.youtube.com/embed/-St9a05ZQGY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+
+<p>A private research note repository was set up in 2016.</p>
+<iframe src="https://www.youtube.com/embed/P2vWPorui9Y" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+
+<p>All previous private notes are scattered among my notebooks, EverNote, markdown files, etc. One of them was a private repository called <code class="highlighter-rouge">neutrino-researching</code> on GitHub.</p>
+<iframe src="https://www.youtube.com/embed/jrTyYw-tr58" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+
+<h2 id="finale">Finale</h2>
+
+<p>Anyways, academia has been good. But I would like to explore more about this world.
+See ya.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Updated:</strong> <time datetime="2018-05-03">May 03, 2018</time></p>
+        
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+    
+    
+      <li><a href="http://github.com/neuphysics"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    <li><a href="http://localhost:4000/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2018 NeuPhysics. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+      </footer>
+    </div>
+
+    <script src="http://localhost:4000/assets/js/main.min.js"></script>
+
+
+
+
+
+  </body>
+</html>
